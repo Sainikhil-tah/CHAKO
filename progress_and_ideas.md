@@ -1,26 +1,40 @@
 ## THIS FILE CONTAINS MY THINKING PROCESS AND THE PROGRESS OF THE PROJECT
+
 ---
+
 ## AUTOMATION
--->generate .exe feed it to the py-chess
+- Generate executable (`.exe`)
+- Feed engine moves to `python-chess` for automated validation and testing
+
 ---
+
 ## BEST MOVE
--->minmax combined with alpha-beta pruning,quiescent search to over come horizon effect at depth=0
+- Implemented Minimax Search
+- Optimized using Alpha-Beta Pruning
+- Added Quiescent Search to overcome the horizon effect at depth = 0
+
 ---
-## ADDITIONAL_FEATURES
--->undo , redo of moves 
--->load game 
--->save game 
--->generate pgn 
--->generate fen
--->can be played in linux terminal
+
+## ADDITIONAL FEATURES
+- Undo / Redo moves
+- Load game support
+- Save game support
+- Generate PGN
+- Generate FEN
+- Playable directly in Linux terminal
+
 ---
+
 ## TO_DO
--->linkit with the fronted using something run backend engine in cpp 
--->design database for player game history
+- Link with frontend using backend communication with the C++ engine
+- Design database for player game history
+
 ---
+
 ## EXTENSION
 - Iterative Deepening
 - Transposition Tables
 - Zobrist Hashing
 - Move Ordering Heuristics
+
 ---
