@@ -144,5 +144,5 @@ class Board{
     private:
         // this should be private if this is public 
         // user can change the game history as he want
-        std::vector<BoardState> historyStack;
+        std::stack<BoardState> historyStack;
 };  
