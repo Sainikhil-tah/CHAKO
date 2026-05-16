@@ -36,5 +36,5 @@
 - Transposition Tables
 - Zobrist Hashing
 - Move Ordering Heuristics
-
+-bitboards
 ---
