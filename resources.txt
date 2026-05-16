@@ -1,0 +1,2 @@
+https://www.youtube.com/watch?v=xPGuZreeXmM ->negamax 
+https://www.youtube.com/watch?v=Emea4wE_KZU ->alphabeta pruning 
