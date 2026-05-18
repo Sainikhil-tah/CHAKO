@@ -50,6 +50,8 @@ class Game{
         static bool parseSquare(const std::string& s, int& row, int& col);
         std::vector<Move> movesFrom(int row, int col) const;
         std::chrono::steady_clock::time_point gameStartTime;
+        std::chrono::steady_clock::time_point gameEndTime;
+        // long long gameDurationMs=gameEndTime-gameStartTime;
         long long gameDurationMs=0;
         // this is the property of engine 
         // we can change via engine.setTimeLimit()
