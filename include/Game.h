@@ -8,7 +8,7 @@
 #include "UndoManager.h"
 // use class to prevent wrong comparison
 enum class GameMode{HumanVsHuman,HumanVsEngine};
-enum class GameType{Bullet,Blitz,Rapid,Classic,NoLimit};
+// enum class GameType{Bullet,Blitz,Rapid,Classic,NoLimit};
 // without class HumanVsHuman==Bullet 
 // Bullet set gameduration to 2min 
 // Blitz set gameduration to 5min
@@ -43,8 +43,8 @@ class Game{
         bool processSquareInput(const std::string& line, std::string& statusMsg);
         // handles the commands for terminal load,redo,undo,save,help this is to differ from move and cmd in terminal input 
         bool handleCommand(const std::string& cmd, std::string& statusMsg);
-
-        bool isGameOver(std::string& result) const;
+        // should be able to change to make  and unmake and check for valid moves
+        bool isGameOver(std::string& result);
         void saveGame(const std::string& filename, std::string& statusMsg);
         void loadGame(const std::string& filename, std::string& statusMsg);
         static bool parseSquare(const std::string& s, int& row, int& col);
@@ -52,6 +52,7 @@ class Game{
         std::chrono::steady_clock::time_point gameStartTime;
         std::chrono::steady_clock::time_point gameEndTime;
         // long long gameDurationMs=gameEndTime-gameStartTime;
+        // at the end print how much time elapsed 
         long long gameDurationMs=0;
         // this is the property of engine 
         // we can change via engine.setTimeLimit()
