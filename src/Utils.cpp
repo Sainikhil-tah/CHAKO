@@ -1,5 +1,7 @@
 #include"Utils.h"
-#include<windows.h>
+#ifdef _WIN32
+    #include <windows.h>
+#endif
 #include<iostream>
 #include<cstdlib>
 #include<cctype>
@@ -34,11 +36,14 @@ char Utils::rowToRank(int row){
     return static_cast<char>('0'+8-row);
 }
 void Utils::clearScreen(){
-    #ifdef _WIN32
-        std::system("cls");
-    #else 
-        std::system("clear");
-    #endif
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wunused-result" //to avoid Werror for win when using wsl
+#ifdef _WIN32
+    std::system("cls");
+#else
+    std::system("clear");
+#endif
+#pragma GCC diagnostic pop
 }
 void Utils::printSeparator(){
     std::cout << "  +-----------------------------------------+\n";
