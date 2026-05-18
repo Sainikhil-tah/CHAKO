@@ -48,7 +48,7 @@ class Game{
         void saveGame(const std::string& filename, std::string& statusMsg);
         void loadGame(const std::string& filename, std::string& statusMsg);
         static bool parseSquare(const std::string& s, int& row, int& col);
-        std::vector<Move> movesFrom(int row, int col) const;
+        std::vector<Move> movesFrom(int row, int col);
         std::chrono::steady_clock::time_point gameStartTime;
         std::chrono::steady_clock::time_point gameEndTime;
         // long long gameDurationMs=gameEndTime-gameStartTime;
