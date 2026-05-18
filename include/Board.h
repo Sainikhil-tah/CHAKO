@@ -5,7 +5,7 @@
 #include<stack>
 #include "Move.h"
 #include "Constants.h"
-
+// stores the complete data of the board
 // tbh this is not required as they are defied in Constansts.h 
 #ifndef BOARD_SIZE
 #define BOARD_SIZE 8
@@ -55,9 +55,13 @@ struct BoardState {
     // does not have Piece captured by the move.
     // EMPTY if no normal capture happened.
     char capturedPiece;
-    // Castling rights before the move was made.
-    // Needed because a king or rook move or rook capture can permanently as explained before
-    // remove castling rights, and undo must restore the previous value.
+    // this is needed because current undo is failing after castling 
+    // as after casting both WkandWQ becomes false can  be restored by index 
+    // this failed again when the when i did 
+    // move king and come back to same pos now the castling for king is lost 
+    // again if i did king move and come back my current logic is just checking if i have king in my orgninal place after restore 
+    // and remaining ROOk in the place so it is restoring it's castling rights which is wrong 
+    // rather than keepin track of 6 variables we added this 
     int castlingRights;
     // En passant column before the move was made.
     // Needed because en passant is available for only one move and is
@@ -86,15 +90,20 @@ struct BoardState {
 
 class Board{
     public:
-        //constructor
+        //added constructor to prevent from getting loaded with garbage values cause of prev error
+        // mistake is we didnt call initstartpositon
+        // constructor not required 
+        // better include initstartpos in construtor 
+        // so when ever Board is called autosey 
         Board();
         void initStartPosition();
+        // just to check if the move is valid or not
         void applyMove(const Move& move);
         void makeMove(const Move& move);
         void unmakeMove(const Move& move);
         // these functions will be const as they shouldn't change the board states
         // loads the board from the data
-        void loadFromRaw(const char raw[BOARD_SIZE][BOARD_SIZE],int side,int castle,int ep,int halfClock,int fullNum,const std::vector<Move>& wMoves,const std::vector<Move>& bMoves,std::vector<char>& capW,const std::vector<char>& capB);
+        void loadFromRaw(const char raw[BOARD_SIZE][BOARD_SIZE],int side,int castle,int ep,int halfClock,int fullNum,const std::vector<Move>& wMoves,const std::vector<Move>& bMoves,const std::vector<char>& capW,const std::vector<char>& capB);
         // to check if the king is in check 
         bool isInCheck(int side) const;
         // checks the respective king is present in respective row and col
@@ -121,7 +130,6 @@ class Board{
         // this is not much required as we already included 50 Move rule
         // made this because because waiting for 50 Moves is tiring and boring
         bool hasSufficientMaterial() const;
-
         // our board notation
         char board[BOARD_SIZE][BOARD_SIZE];
         // which side to move
@@ -130,6 +138,7 @@ class Board{
         int castlingRights;
         // the col where enPassantCol happend
         int enPassantCol;
+        int enPassantRow;
         // halfmove count
         int halfMoveClock;
         int fullMoveNumber;
