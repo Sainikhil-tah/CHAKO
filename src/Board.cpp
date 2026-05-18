@@ -1,5 +1,5 @@
 #include <iostream>
-// to read complete line from string
+// to read complete line from terminal
 #include <sstream>
 #include <limits>
 // all the moves are legal only as we are getting them from generate legal moves
@@ -65,6 +65,11 @@ void Board::makeMove(const Move& move){
     BoardState state;
     // this will be pushed into history stack 
     // the board status before move
+    if (sideToMove == WHITE) {
+        whiteMoves.push_back(move);
+    } else {
+        blackMoves.push_back(move);
+    }
     state.capturedPiece=board[move.toRow][move.toCol];
     state.castlingRights=castlingRights;
     state.enPassantCol=enPassantCol;
@@ -151,6 +156,15 @@ void Board::unmakeMove(const Move& move) {
     if (historyStack.empty()) return;
     BoardState state = historyStack.top();
     historyStack.pop();
+    if (Board::isWhite(move.piece)) {
+        if (!whiteMoves.empty()) {
+            whiteMoves.pop_back();
+        }
+    } else if (Board::isBlack(move.piece)) {
+        if (!blackMoves.empty()) {
+            blackMoves.pop_back();
+        }
+    }
     sideToMove ^= 1;
     castlingRights=state.castlingRights;
     enPassantCol=state.enPassantCol;
@@ -402,11 +416,11 @@ bool Board::deserialize(const std::string& data) {
         if (line.size() < 4)
             return false;
         Move m;
-        m.fromCol = line[0] - 'a';
-        m.fromRow = '8' - line[1];
-        m.toCol   = line[2] - 'a';
-        m.toRow   = '8' - line[3];
-        m.promotion = (line.size() > 4) ? line[4] : EMPTY;
+        m.fromCol=line[0]-'a';
+        m.fromRow='8'-line[1];
+        m.toCol=line[2]-'a';
+        m.toRow='8'-line[3];
+        m.promotion=(line.size()>4)?line[4]:EMPTY;
         whiteMoves.push_back(m);
     }
     // Read black moves
