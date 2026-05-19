@@ -2,7 +2,8 @@
 #include"Board.h"
 #include"Move.h"
 #include<vector>
-class MoveGenerator {
+class MoveGenerator{
+    // no need of constructor as nothing to initialise 
     public:
         // vector to store legal moves
         std::vector<Move> generateLegalMoves(Board& board) const;
