@@ -77,7 +77,7 @@ void runUCI() {
     engine.setTimeLimit(5000);
     std::string line;
     while (std::getline(std::cin, line)){
-        // std::cerr << "RECV: " << line << "\n"; to see the input sent by py 
+        // std::cerr << "RECV: " << line << "\n";
         if (line=="uci"){
             std::cout << "id name NikhilEngine\n";
             std::cout << "id author Nikhil\n";
@@ -113,8 +113,8 @@ void runUCI() {
             engine.setTimeLimit(movetime);
             // yes the depth is changing 
             // std::cerr << "go command: " << line << std::endl;
-            std::cerr << "using depth = " << engine.getDepth() << std::endl;
-            std::cerr << "using timelimit = " << engine.getTimeLimit() << std::endl;
+            // std::cerr << "using depth = " << engine.getDepth() << std::endl;
+            // std::cerr << "using timelimit = " << engine.getTimeLimit() << std::endl;
             Move best=engine.findBestMove(board);
             MoveGenerator mg;
             std::vector<Move> legal=mg.generateLegalMoves(board);
