@@ -2,36 +2,85 @@ name: Chess Engine Test
 
 on:
   workflow_dispatch:
+    inputs:
+
+      games:
+        description: "Number of Games"
+        required: true
+        default: "100"
+
+      my_depth:
+        description: "My Engine Depth"
+        required: true
+        default: "4"
+
+      move_time:
+        description: "Move Time (seconds)"
+        required: true
+        default: "2.0"
+
+      sf_elo:
+        description: "Stockfish Elo"
+        required: true
+        default: "1800"
+
+      sf_depth:
+        description: "Stockfish Depth"
+        required: true
+        default: "8"
 
 jobs:
   test:
+
     runs-on: ubuntu-latest
+
     timeout-minutes: 420
+
     steps:
+
     - name: Checkout repo
       uses: actions/checkout@v4
+
     - name: Install build tools
       run: |
         sudo apt update
         sudo apt install -y g++ make
+
     - name: Setup Python
       uses: actions/setup-python@v5
       with:
         python-version: "3.11"
+
     - name: Install Stockfish
       run: |
         sudo apt install -y stockfish
+
     - name: Install dependencies
       run: |
         pip install python-chess
+
     - name: Build engine
       run: |
         make
+
     - name: Verify build
       run: |
         ls -l
         chmod +x ./chess
         ./chess uci
+
     - name: Run automated test
+      env:
+        NUM_GAMES: ${{ github.event.inputs.games }}
+        GAME_DEPTH: ${{ github.event.inputs.my_depth }}
+        TIME_LIMIT: ${{ github.event.inputs.move_time }}
+        STOCKFISH_ELO: ${{ github.event.inputs.sf_elo }}
+        STOCKFISH_DEPTH: ${{ github.event.inputs.sf_depth }}
       run: |
         python automation_scripts/test_git.py
+
+    - name: Upload report
+      uses: actions/upload-artifact@v4
+      with:
+        name: stockfish-testing-report
+        path: STOCKFISH_TESTING_REPORT
