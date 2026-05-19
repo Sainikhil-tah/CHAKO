@@ -4,7 +4,7 @@
 const int BOARD_SIZE=8;
 const int WHITE=0;
 const int BLACK=1;
-const char empty='.';
+const char EMPTY='.';
 const int DEFAULT_DEPTH=4;
 
 //we use capital letters for white 
@@ -12,7 +12,7 @@ const int DEFAULT_DEPTH=4;
 //dont get confused as we are using 0 for white and capital letters for white 
 //i used this because ASCII(A)<ASCII(a)
 
-// white piece defination 
+// white piece defination matches  uci defination
 const char W_KING='K',W_QUEEN='Q',W_ROOK='R',W_BISHOP='B',W_KNIGHT='N',W_PAWN='P';
 
 // black piece defination
