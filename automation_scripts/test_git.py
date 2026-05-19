@@ -1,16 +1,24 @@
-# used GPT to generate similar file for git 
+# Generated using GPT to mimic the local test 
 import chess
 import chess.engine
 import math
 import time
 import sys
+
+# =========================================================
+# LOGGING
+# =========================================================
+
 LOG_FILE = "STOCKFISH_TESTING_REPORT"
+
 
 def log(msg):
     print(msg)
 
     with open(LOG_FILE, "a", encoding="utf-8") as f:
-        f.write(msg + "\n")
+        f.write(str(msg) + "\n")
+
+
 # =========================================================
 # CONFIG
 # =========================================================
@@ -22,8 +30,12 @@ NUM_GAMES = 360
 
 GAME_DEPTH = 4
 
-# 2000 ms per move
+# seconds per move
 TIME_LIMIT = 2.0
+
+# infinite-game safeguard
+MAX_PLIES = 1000
+
 
 # =========================================================
 # MATERIAL COUNT
@@ -34,22 +46,28 @@ PIECE_VALUES = {
     chess.KNIGHT: 3,
     chess.BISHOP: 3,
     chess.ROOK: 5,
-    chess.QUEEN: 9
+    chess.QUEEN: 9,
 }
 
 
 def material_difference(board):
     white = sum(
-        len(board.pieces(pt, chess.WHITE)) * v
-        for pt, v in PIECE_VALUES.items()
+        len(board.pieces(pt, chess.WHITE)) * v for pt, v in PIECE_VALUES.items()
     )
 
     black = sum(
-        len(board.pieces(pt, chess.BLACK)) * v
-        for pt, v in PIECE_VALUES.items()
+        len(board.pieces(pt, chess.BLACK)) * v for pt, v in PIECE_VALUES.items()
     )
 
     return white - black
+
+
+# =========================================================
+# INIT LOG FILE
+# =========================================================
+
+with open(LOG_FILE, "w", encoding="utf-8") as f:
+    f.write("========== STOCKFISH TEST REPORT ==========\n")
 
 
 # =========================================================
@@ -58,32 +76,31 @@ def material_difference(board):
 
 try:
     sf = chess.engine.SimpleEngine.popen_uci("/usr/games/stockfish")
+
 except Exception as e:
     log(f"[FAIL] Could not start Stockfish: {e}")
-    sf.quit()
-    my.quit()
     sys.exit(1)
 
 try:
     my = chess.engine.SimpleEngine.popen_uci(["./chess", "uci"])
+
 except Exception as e:
     log(f"[FAIL] Could not start your engine: {e}")
-    sf.quit()
-    my.quit()
+
+    try:
+        sf.quit()
+    except:
+        pass
+
     sys.exit(1)
 
-# configure stockfish elo
-sf.configure({
-    "UCI_LimitStrength": True,
-    "UCI_Elo": STOCKFISH_ELO
-})
 
-# startup crash check
-if my.poll() is not None:
-    log("[FAIL] Your engine crashed immediately")
-    sf.quit()
-    my.quit()
-    sys.exit(1)
+# =========================================================
+# CONFIGURE STOCKFISH
+# =========================================================
+
+sf.configure({"UCI_LimitStrength": True, "UCI_Elo": STOCKFISH_ELO})
+
 
 # =========================================================
 # STATS
@@ -104,16 +121,16 @@ all_move_count = 0
 
 all_nodes_search = 0
 
+
 # =========================================================
 # MAIN GAME LOOP
 # =========================================================
-with open(LOG_FILE, "w", encoding="utf-8") as f:
-    f.write("========== STOCKFISH TEST REPORT ==========\n")
+
 for game_num in range(NUM_GAMES):
 
     board = chess.Board()
 
-    my_is_white = (game_num % 2 == 0)
+    my_is_white = game_num % 2 == 0
 
     total_moves = 0
 
@@ -123,31 +140,18 @@ for game_num in range(NUM_GAMES):
 
     log(f"\n================ GAME {game_num + 1} ================")
 
-    while not board.is_game_over():
-
-        # engine crash check
-        if my.poll() is not None:
-            log("[FAIL] Your engine crashed during game")
-            sf.quit()
-            my.quit()
-            sys.exit(1)
+    while not board.is_game_over() and total_moves < MAX_PLIES:
 
         move_no = board.fullmove_number
 
-        side_to_move = (
-            "WHITE"
-            if board.turn == chess.WHITE
-            else "BLACK"
-        )
+        side_to_move = "WHITE" if board.turn == chess.WHITE else "BLACK"
 
         # =================================================
         # MY ENGINE TURN
         # =================================================
 
-        my_turn = (
-            (board.turn == chess.WHITE and my_is_white)
-            or
-            (board.turn == chess.BLACK and not my_is_white)
+        my_turn = (board.turn == chess.WHITE and my_is_white) or (
+            board.turn == chess.BLACK and not my_is_white
         )
 
         if my_turn:
@@ -161,16 +165,20 @@ for game_num in range(NUM_GAMES):
             try:
                 result = my.play(
                     board,
-                    chess.engine.Limit(
-                        depth=GAME_DEPTH,
-                        time=TIME_LIMIT
-                    ),
-                    info=chess.engine.INFO_ALL
+                    chess.engine.Limit(depth=GAME_DEPTH, time=TIME_LIMIT),
+                    info=chess.engine.INFO_ALL,
                 )
+
             except Exception as e:
+
                 log(f"[FAIL] Engine crashed while searching: {e}")
-                sf.quit()
-                my.quit()
+
+                try:
+                    sf.quit()
+                    my.quit()
+                except:
+                    pass
+
                 sys.exit(1)
 
             elapsed = time.perf_counter() - start
@@ -181,9 +189,7 @@ for game_num in range(NUM_GAMES):
 
             # eval
             info = sf.analyse(
-                board,
-                chess.engine.Limit(depth=14),
-                info=chess.engine.INFO_ALL
+                board, chess.engine.Limit(depth=14), info=chess.engine.INFO_ALL
             )
 
             score = (
@@ -207,11 +213,24 @@ for game_num in range(NUM_GAMES):
 
             start = time.perf_counter()
 
-            result = sf.play(
-                board,
-                chess.engine.Limit(depth=STOCKFISH_DEPTH),
-                info=chess.engine.INFO_ALL
-            )
+            try:
+                result = sf.play(
+                    board,
+                    chess.engine.Limit(depth=STOCKFISH_DEPTH),
+                    info=chess.engine.INFO_ALL,
+                )
+
+            except Exception as e:
+
+                log(f"[FAIL] Stockfish crashed: {e}")
+
+                try:
+                    sf.quit()
+                    my.quit()
+                except:
+                    pass
+
+                sys.exit(1)
 
             elapsed = time.perf_counter() - start
 
@@ -219,9 +238,7 @@ for game_num in range(NUM_GAMES):
             sf_move_count += 1
 
             info = sf.analyse(
-                board,
-                chess.engine.Limit(depth=14),
-                info=chess.engine.INFO_ALL
+                board, chess.engine.Limit(depth=14), info=chess.engine.INFO_ALL
             )
 
             score = (
@@ -238,6 +255,7 @@ for game_num in range(NUM_GAMES):
 
         if score.is_mate():
             cp_str = f"M{score.mate()}"
+
         else:
             cp_str = f"{score.score()/100:+.2f}"
 
@@ -249,22 +267,34 @@ for game_num in range(NUM_GAMES):
         # =================================================
 
         if result.move is None:
+
             log("[FAIL] Engine returned null move")
             log(board.fen())
-            sf.quit()
-            my.quit()
+
+            try:
+                sf.quit()
+                my.quit()
+            except:
+                pass
+
             sys.exit(1)
 
         if result.move not in board.legal_moves:
+
             log("[FAIL] Illegal move detected")
             log(f"Move: {result.move}")
             log(f"FEN : {board.fen()}")
-            sf.quit()
-            my.quit()
+
+            try:
+                sf.quit()
+                my.quit()
+            except:
+                pass
+
             sys.exit(1)
 
         # =================================================
-        # log MOVE
+        # LOG MOVE
         # =================================================
 
         log(
@@ -283,6 +313,22 @@ for game_num in range(NUM_GAMES):
         total_moves += 1
 
     # =====================================================
+    # MAX PLY FAIL
+    # =====================================================
+
+    if total_moves >= MAX_PLIES:
+
+        log("[FAIL] Max ply limit exceeded")
+
+        try:
+            sf.quit()
+            my.quit()
+        except:
+            pass
+
+        sys.exit(1)
+
+    # =====================================================
     # GAME RESULT
     # =====================================================
 
@@ -294,23 +340,17 @@ for game_num in range(NUM_GAMES):
     winner_str = (
         "White"
         if outcome_obj.winner == chess.WHITE
-        else
-        "Black"
+        else "Black"
         if outcome_obj.winner == chess.BLACK
-        else
-        "Draw"
+        else "Draw"
     )
 
-    my_won = (
-        (outcome == "1-0" and my_is_white)
-        or
-        (outcome == "0-1" and not my_is_white)
+    my_won = (outcome == "1-0" and my_is_white) or (
+        outcome == "0-1" and not my_is_white
     )
 
-    my_lost = (
-        (outcome == "0-1" and my_is_white)
-        or
-        (outcome == "1-0" and not my_is_white)
+    my_lost = (outcome == "0-1" and my_is_white) or (
+        outcome == "1-0" and not my_is_white
     )
 
     diff = material_difference(board)
@@ -329,11 +369,7 @@ for game_num in range(NUM_GAMES):
         draws += 1
         label = "DRAW"
 
-    avg_nodes = (
-        game_nodes / my_game_moves
-        if my_game_moves > 0
-        else 0
-    )
+    avg_nodes = game_nodes / my_game_moves if my_game_moves > 0 else 0
 
     log(board)
 
@@ -348,6 +384,7 @@ for game_num in range(NUM_GAMES):
     )
 
     log(f"Average Nodes searched : {avg_nodes:.2f}")
+
 
 # =========================================================
 # FINAL RESULTS
@@ -366,23 +403,15 @@ else:
 
 estimated_elo = STOCKFISH_ELO + elo_diff
 
-my_avg_time = (
-    my_total_time / my_move_count
-    if my_move_count > 0 else 0.0
-)
+my_avg_time = my_total_time / my_move_count if my_move_count > 0 else 0.0
 
-sf_avg_time = (
-    sf_total_time / sf_move_count
-    if sf_move_count > 0 else 0.0
-)
+sf_avg_time = sf_total_time / sf_move_count if sf_move_count > 0 else 0.0
 
-all_avg_time = (
-    all_total_time / all_move_count
-    if all_move_count > 0 else 0.0
-)
+all_avg_time = all_total_time / all_move_count if all_move_count > 0 else 0.0
+
 
 # =========================================================
-# log STATS
+# FINAL STATS
 # =========================================================
 
 log("\n========================")
@@ -419,9 +448,14 @@ log(f"All avg time         : {all_avg_time:.4f}s/move")
 
 log("\n[PASS] All tests completed successfully")
 
+
 # =========================================================
 # CLEANUP
 # =========================================================
 
-sf.quit()
-my.quit()
+try:
+    sf.quit()
+    my.quit()
+
+except:
+    pass
