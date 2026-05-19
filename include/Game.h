@@ -7,6 +7,7 @@
 #include "SearchEngine.h"
 #include "UndoManager.h"
 // use class to prevent wrong comparison
+// 
 enum class GameMode{HumanVsHuman,HumanVsEngine};
 // enum class GameType{Bullet,Blitz,Rapid,Classic,NoLimit};
 // without class HumanVsHuman==Bullet 
