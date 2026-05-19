@@ -1,7 +1,9 @@
 name: Chess Engine Test
+
 concurrency:
   group: chess-engine-tests
   cancel-in-progress: false
+
 on:
   workflow_dispatch:
     inputs:
@@ -30,6 +32,21 @@ on:
         description: "Stockfish Depth"
         required: true
         default: "8"
+
+      print_moves:
+        description: "Print every move (True/False)"
+        required: true
+        default: "False"
+
+      print_final_board:
+        description: "Print final board (True/False)"
+        required: true
+        default: "True"
+
+      report_name:
+        description: "Report filename"
+        required: true
+        default: "benchmark"
 
 jobs:
   test:
@@ -78,11 +95,14 @@ jobs:
         TIME_LIMIT: ${{ github.event.inputs.move_time }}
         STOCKFISH_ELO: ${{ github.event.inputs.sf_elo }}
         STOCKFISH_DEPTH: ${{ github.event.inputs.sf_depth }}
+        PRINT_MOVES: ${{ github.event.inputs.print_moves }}
+        PRINT_FINAL_BOARD: ${{ github.event.inputs.print_final_board }}
+        REPORT_NAME: ${{ github.event.inputs.report_name }}
       run: |
         python automation_scripts/test_git.py
 
-    - name: Upload report
+    - name: Upload reports
       uses: actions/upload-artifact@v4
       with:
-        name: stockfish-testing-report
-        path: STOCKFISH_TESTING_REPORT
+        name: testing-reports-${{ github.run_number }}
+        path: testing_reports
