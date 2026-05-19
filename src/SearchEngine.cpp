@@ -3,12 +3,12 @@
 #include <iostream>
 #include <chrono>
 #include <cctype>
-const int VAL_PAWN_MVV   = 1;
-const int VAL_KNIGHT_MVV = 2;
-const int VAL_BISHOP_MVV = 3;
-const int VAL_ROOK_MVV   = 4;
-const int VAL_QUEEN_MVV  = 5;
-const int VAL_KING_MVV   = 6;
+const int VAL_PAWN_MVV=1;
+const int VAL_KNIGHT_MVV=2;
+const int VAL_BISHOP_MVV=3;
+const int VAL_ROOK_MVV=4;
+const int VAL_QUEEN_MVV=5;
+const int VAL_KING_MVV=6;
 #ifndef INF_SCORE
 #define INF_SCORE 100000
 #endif
@@ -112,8 +112,6 @@ int SearchEngine::negamax(Board& board,int depth,int alpha,int beta) {
     }
     return alpha;
 }
-
-
 int SearchEngine::quiescence(Board& board, int alpha, int beta) {
     // Quiescence nodes are also counted now
     ++nodesSearched;
@@ -130,19 +128,14 @@ int SearchEngine::quiescence(Board& board, int alpha, int beta) {
     if (board.sideToMove==BLACK) {
         standPat=-standPat;
     }
-
     if (standPat>=beta) {
         return beta;
     }
-
     if (standPat>alpha){
         alpha=standPat;
     }
-
     std::vector<Move> captures = moveGen.generateCaptureMoves(board);
-
     orderMoves(captures);
-
     for (const Move& m : captures) {
         if (isTimeUp()){
             break;
@@ -159,16 +152,12 @@ int SearchEngine::quiescence(Board& board, int alpha, int beta) {
     }
     return alpha;
 }
-
-
 void SearchEngine::orderMoves(std::vector<Move>& moves) const{
     std::stable_sort(moves.begin(), moves.end(),
         [this](const Move& a, const Move& b){
             return mvvLva(a) > mvvLva(b);
         });
 }
-
-
 int SearchEngine::getPieceValue(char piece) const {
     switch (std::toupper(static_cast<unsigned char>(piece))){
         case 'P': return VAL_PAWN_MVV;
@@ -184,5 +173,22 @@ int SearchEngine::mvvLva(const Move& m) const{
     if (m.captured=='.') {
         return 0;
     }
-    return getPieceValue(m.captured)*10-getPieceValue(m.piece);
+    int score=0;
+    if (m.promotion!='\0'&&m.promotion!='.'){
+        switch (std::toupper(static_cast<unsigned char>(m.promotion))) {
+            case 'Q':
+                score+=900;
+                break;
+            case 'R':
+                score+=500;
+                break;
+            case 'B':
+                score+=300;
+                break;
+            case 'N':
+                score+=300;
+                break;
+        }
+    }
+    return getPieceValue(m.captured)*10-getPieceValue(m.piece)+score;
 }
