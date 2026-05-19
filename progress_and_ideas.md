@@ -26,7 +26,7 @@
 ---
 
 ## TO_DO
-- Link with frontend using backend communication with the C++ engine
+-~~Link with frontend using backend communication with the C++ engine~~ *(DONE)*
 - Design database for player game history
 
 ---
