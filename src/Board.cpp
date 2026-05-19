@@ -65,19 +65,12 @@ void Board::makeMove(const Move& move){
     BoardState state;
     // this will be pushed into history stack 
     // the board status before move
-    if (sideToMove == WHITE) {
-        whiteMoves.push_back(move);
-    } else {
-        blackMoves.push_back(move);
-    }
+    // if (sideToMove == WHITE) {
+    //     whiteMoves.push_back(move);
+    // } else {
+    //     blackMoves.push_back(move);
+    // }
     state.capturedPiece=board[move.toRow][move.toCol];
-    if (state.capturedPiece!=EMPTY) {
-        if (sideToMove==WHITE) {
-            capturedByWhite.push_back(state.capturedPiece);
-        } else {
-            capturedByBlack.push_back(state.capturedPiece);
-        }
-    }
     state.castlingRights=castlingRights;
     state.enPassantCol=enPassantCol;
     state.halfMoveClock=halfMoveClock;
@@ -96,6 +89,14 @@ void Board::makeMove(const Move& move){
     // }
     // this stores the state of board before the move
     // 
+    // we should do this in game.cpp as these moves are just engine searchingg
+    // if (state.capturedPiece!=EMPTY){
+    //     if (sideToMove==WHITE) {
+    //         capturedByWhite.push_back(state.capturedPiece);
+    //     } else {
+    //         capturedByBlack.push_back(state.capturedPiece);
+    //     }
+    // }
     historyStack.push(state);
     // after the move the enpass no longer exists
     enPassantCol=NO_EP;
@@ -163,27 +164,27 @@ void Board::unmakeMove(const Move& move){
     if (historyStack.empty()) return;
     BoardState state = historyStack.top();
     historyStack.pop();
-    if (Board::isWhite(move.piece)){
-        if (!whiteMoves.empty()){
-            whiteMoves.pop_back();
-        }
-    } else if (Board::isBlack(move.piece)) {
-        if (!blackMoves.empty()){
-            blackMoves.pop_back();
-        }
-    }
+    // if (Board::isWhite(move.piece)){
+    //     if (!whiteMoves.empty()){
+    //         whiteMoves.pop_back();
+    //     }
+    // } else if (Board::isBlack(move.piece)) {
+    //     if (!blackMoves.empty()){
+    //         blackMoves.pop_back();
+    //     }
+    // }
     sideToMove^=1;
-    if (state.capturedPiece!=EMPTY){
-        if (Board::isWhite(move.piece)){
-            if (!capturedByWhite.empty()){
-                capturedByWhite.pop_back();
-            }
-        }else if (Board::isBlack(move.piece)){
-            if (!capturedByBlack.empty()){
-                capturedByBlack.pop_back();
-            }
-        }
-    }
+    // if (state.capturedPiece!=EMPTY){
+    //     if (Board::isWhite(move.piece)){
+    //         if (!capturedByWhite.empty()){
+    //             capturedByWhite.pop_back();
+    //         }
+    //     }else if (Board::isBlack(move.piece)){
+    //         if (!capturedByBlack.empty()){
+    //             capturedByBlack.pop_back();
+    //         }
+    //     }
+    // }
     castlingRights=state.castlingRights;
     enPassantCol=state.enPassantCol;
     halfMoveClock=state.halfMoveClock;
