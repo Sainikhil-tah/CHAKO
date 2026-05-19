@@ -4,39 +4,39 @@ import chess.engine
 import math
 import time
 import sys
+import os
+from datetime import datetime
 
 # =========================================================
 # LOGGING
 # =========================================================
 
 LOG_FILE = "STOCKFISH_TESTING_REPORT"
-
-
 def log(msg):
     print(msg)
-
+    # append the file 
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(str(msg) + "\n")
 
 
-# =========================================================
-# CONFIG
-# =========================================================
-
-STOCKFISH_ELO = 1800
-STOCKFISH_DEPTH = 8
-
-NUM_GAMES = 360
-
-GAME_DEPTH = 4
-
-# seconds per move
-TIME_LIMIT = 2.0
-
-# infinite-game safeguard
-MAX_PLIES = 1000
-
-
+# added env for custom queing 
+STOCKFISH_ELO=int(os.getenv("STOCKFISH_ELO",1800))
+STOCKFISH_DEPTH=int(os.getenv("STOCKFISH_DEPTH",8))
+NUM_GAMES=int(os.getenv("NUM_GAMES",100))
+GAME_DEPTH=int(os.getenv("GAME_DEPTH",4))
+TIME_LIMIT=float(os.getenv("TIME_LIMIT",2.0))
+MAX_PILES=1000
+with open(LOG_FILE, "a", encoding="utf-8") as f:
+    f.write("\n")
+    f.write("========================================\n")
+    f.write(f"NEW TEST RUN : {datetime.now()}\n")
+    f.write("========================================\n")
+    f.write(f"NUM_GAMES       : {NUM_GAMES}\n")
+    f.write(f"GAME_DEPTH      : {GAME_DEPTH}\n")
+    f.write(f"TIME_LIMIT      : {TIME_LIMIT}\n")
+    f.write(f"STOCKFISH_ELO   : {STOCKFISH_ELO}\n")
+    f.write(f"STOCKFISH_DEPTH : {STOCKFISH_DEPTH}\n")
+    f.write("\n")
 # =========================================================
 # MATERIAL COUNT
 # =========================================================
@@ -65,8 +65,8 @@ def material_difference(board):
 # =========================================================
 # INIT LOG FILE
 # =========================================================
-
-with open(LOG_FILE, "w", encoding="utf-8") as f:
+# append 
+with open(LOG_FILE, "a", encoding="utf-8") as f:
     f.write("========== STOCKFISH TEST REPORT ==========\n")
 
 
