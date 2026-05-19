@@ -30,19 +30,35 @@ int parseDepthFromGo(const std::string& line) {
     }
     return depth;
 }
+long long parseMoveTimeFromGo(const std::string& line) {
+    std::stringstream ss(line);
+    std::string token;
+    long long movetime = 60000; // default 60 sec
+    ss >> token; // "go"
+    while (ss >> token) {
+        if (token=="movetime") {
+            ss>>movetime;
+        }
+    }
+
+    return movetime;
+}
 // Convert UCI move string into your internal Move object
 // e2e4
 // e7e8q not e7e8Q 
 Move parseMove(const std::string& s, Board& board) {
     MoveGenerator mg;
-    std::vector<Move> legal = mg.generateLegalMoves(board);
-    for (const auto& m : legal) {
-        if (m.toAlgebraic() == s) {
+    std::vector<Move> legal=mg.generateLegalMoves(board);
+    for (const auto& m:legal) {
+        if (m.toAlgebraic()==s) {
             return m;
         }
     }
+    // our default construtor
     return Move();
 }
+// as it give every move from start and the go depth 
+// recreate every move after initalising board
 void applyMoves(Board& board, std::stringstream& ss) {
     std::string moveStr;
     while (ss >> moveStr){
@@ -61,6 +77,7 @@ void runUCI() {
     engine.setTimeLimit(5000);
     std::string line;
     while (std::getline(std::cin, line)){
+        // std::cerr << "RECV: " << line << "\n"; to see the input sent by py 
         if (line=="uci"){
             std::cout << "id name NikhilEngine\n";
             std::cout << "id author Nikhil\n";
@@ -90,10 +107,14 @@ void runUCI() {
             }
         }
         else if (line.rfind("go", 0) == 0) {
-            int depth = parseDepthFromGo(line);
+            int depth=parseDepthFromGo(line);
+            long long movetime=parseMoveTimeFromGo(line);
             engine.setDepth(depth);
+            engine.setTimeLimit(movetime);
+            // yes the depth is changing 
             // std::cerr << "go command: " << line << std::endl;
-            // std::cerr << "using depth = " << engine.getDepth() << std::endl;
+            std::cerr << "using depth = " << engine.getDepth() << std::endl;
+            std::cerr << "using timelimit = " << engine.getTimeLimit() << std::endl;
             Move best=engine.findBestMove(board);
             MoveGenerator mg;
             std::vector<Move> legal=mg.generateLegalMoves(board);
@@ -106,8 +127,7 @@ void runUCI() {
             }
             // best moves isnt leagal 
             if (!found) {
-                std::cerr << "ERROR: engine returned illegal/null best move"
-                          << std::endl;
+                std::cerr << "ERROR: engine returned illegal/null best move" << std::endl;
                 std::cout << "bestmove 0000\n";
                 std::cout.flush();
                 continue;
@@ -120,14 +140,12 @@ void runUCI() {
             std::cout << board.serialize() << "\nEND_BOARD\n";
             std::cout.flush();
         }
-        else if (line == "quit") {
+        else if (line=="quit") {
             break;
         }
         // unknown command 
         else {
-            std::cerr << "Unknown UCI command: "
-                      << line
-                      << std::endl;
+            std::cerr << "Unknown UCI command: " << line << std::endl;
         }
     }
 }
