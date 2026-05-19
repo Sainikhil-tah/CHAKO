@@ -132,6 +132,8 @@ void runUCI() {
                 std::cout.flush();
                 continue;
             }
+            std::cout << "info depth " << depth << " nodes " << engine.nodesSearched << '\n';
+            std::cout.flush();
             std::cout << "bestmove " << best.toAlgebraic() << "\n";
             std::cout.flush();
         }
