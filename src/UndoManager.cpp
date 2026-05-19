@@ -47,3 +47,4 @@ Snapshot UndoManager::capture(const Board& board){
 void UndoManager::restore(Board& board, const Snapshot& snap) {
     board.loadFromRaw(snap.board,snap.sideToMove,snap.castlingRights,snap.enPassantCol,snap.halfMoveClock,snap.fullMoveNumber,snap.whiteMoves,snap.blackMoves,snap.capturedByWhite,snap.capturedByBlack);
 }
+ 
