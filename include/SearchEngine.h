@@ -18,7 +18,7 @@ public:
     long long getTimeLimit(){return timeLimitMs;}
     Move findBestMove(Board& board);
     long long nodesSearched=0;
-    int ScoreCp=0;
+    int cp_score=0;
     long long TimeMs=0;
     // uses the end-start
     long long getTimeElapsed() const {
