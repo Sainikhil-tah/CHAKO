@@ -37,7 +37,7 @@ char Utils::rowToRank(int row){
 }
 void Utils::clearScreen(){
 #pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wunused-result" //to avoid Werror for win when using wsl
+#pragma GCC diagnostic ignored "-Wunused-result"
 #ifdef _WIN32
     std::system("cls");
 #else
@@ -49,13 +49,14 @@ void Utils::printSeparator(){
     std::cout << "  +-----------------------------------------+\n";
 }
 std::string Utils::trim(const std::string& s) {
-    int start=0;
-    int end=s.size()-1;
+    // causing errror when Wused as we used int change unsigned 
+    unsigned int start=0;
+    unsigned int end=s.size()-1;
     while (start<s.size()&&std::isspace(s[start])){
         start++;
     }
     while (end>=start&&std::isspace(s[end])) {
         end--;
     }
-    return s.substr(start, end - start + 1);
+    return s.substr(start,end-start+1);
 }
