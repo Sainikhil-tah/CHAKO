@@ -1,5 +1,8 @@
 name: Chess Engine Test
 
+permissions:
+  contents: write
+
 concurrency:
   group: chess-engine-tests
   cancel-in-progress: false
@@ -59,6 +62,8 @@ jobs:
 
     - name: Checkout repo
       uses: actions/checkout@v4
+      with:
+        persist-credentials: true
 
     - name: Install build tools
       run: |
@@ -101,8 +106,13 @@ jobs:
       run: |
         python automation_scripts/test_git.py
 
-    - name: Upload reports
-      uses: actions/upload-artifact@v4
-      with:
-        name: testing-reports-${{ github.run_number }}
-        path: testing_reports
+    - name: Commit reports
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@github.com"
+
+        git add testing_reports/
+
+        git diff --cached --quiet || git commit -m "add testing report"
+
+        git push
