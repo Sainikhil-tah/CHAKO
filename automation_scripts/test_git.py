@@ -152,7 +152,7 @@ for game_num in range(NUM_GAMES):
     game_nodes = 0
 
     log(f"\n================ GAME {game_num + 1} ================")
-
+    game_start = time.perf_counter()
     while (
         not board.is_game_over()
         and total_moves < MAX_PLIES
@@ -299,7 +299,7 @@ for game_num in range(NUM_GAMES):
     outcome = board.result()
 
     termination = outcome_obj.termination.name
-
+    game_duration = time.perf_counter() - game_start
     winner_str = (
         "White"
         if outcome_obj.winner == chess.WHITE
@@ -358,7 +358,8 @@ for game_num in range(NUM_GAMES):
         f"Termination={termination:<22} | "
         f"Winner={winner_str:<5} | "
         f"MatDiff={diff:>+3} | "
-        f"Moves={total_moves}"
+        f"Moves={total_moves} | "
+        f"GameTime={game_duration:.2f}s"
     )
 
     log(
