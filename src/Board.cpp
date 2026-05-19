@@ -71,6 +71,13 @@ void Board::makeMove(const Move& move){
         blackMoves.push_back(move);
     }
     state.capturedPiece=board[move.toRow][move.toCol];
+    if (state.capturedPiece!=EMPTY) {
+        if (sideToMove==WHITE) {
+            capturedByWhite.push_back(state.capturedPiece);
+        } else {
+            capturedByBlack.push_back(state.capturedPiece);
+        }
+    }
     state.castlingRights=castlingRights;
     state.enPassantCol=enPassantCol;
     state.halfMoveClock=halfMoveClock;
@@ -152,20 +159,31 @@ void Board::makeMove(const Move& move){
         fullMoveNumber++;
     sideToMove^=1;
 }
-void Board::unmakeMove(const Move& move) {
+void Board::unmakeMove(const Move& move){
     if (historyStack.empty()) return;
     BoardState state = historyStack.top();
     historyStack.pop();
-    if (Board::isWhite(move.piece)) {
-        if (!whiteMoves.empty()) {
+    if (Board::isWhite(move.piece)){
+        if (!whiteMoves.empty()){
             whiteMoves.pop_back();
         }
     } else if (Board::isBlack(move.piece)) {
-        if (!blackMoves.empty()) {
+        if (!blackMoves.empty()){
             blackMoves.pop_back();
         }
     }
-    sideToMove ^= 1;
+    sideToMove^=1;
+    if (state.capturedPiece!=EMPTY){
+        if (Board::isWhite(move.piece)){
+            if (!capturedByWhite.empty()){
+                capturedByWhite.pop_back();
+            }
+        }else if (Board::isBlack(move.piece)){
+            if (!capturedByBlack.empty()){
+                capturedByBlack.pop_back();
+            }
+        }
+    }
     castlingRights=state.castlingRights;
     enPassantCol=state.enPassantCol;
     halfMoveClock=state.halfMoveClock;
@@ -202,6 +220,7 @@ void Board::unmakeMove(const Move& move) {
         }
     }
 }
+// removing this to decrease per/move time 
 // this is appiled on copied board it takes more time
 // void Board::applyMove(const Move& move) {
 //     makeMove(move);
@@ -386,6 +405,7 @@ std::string Board::serialize() const {
     oss << '\n';
     return oss.str();
 }
+// minimise the use of  iss 
 bool Board::deserialize(const std::string& data) {
     std::istringstream iss(data);
     std::string line;
@@ -464,7 +484,7 @@ bool Board::deserialize(const std::string& data) {
         return false;
     if ((int)line.size() != capBCount)
         return false;
-    // we didnt use >> so iss doesnot work 
+    // we didnt use ' ' space while pushing into >> so iss doesnot work 
     for (char c : line)
         capturedByBlack.push_back(c);
     // Clear undo/history stack
