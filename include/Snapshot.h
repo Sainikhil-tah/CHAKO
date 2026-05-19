@@ -23,4 +23,3 @@ struct Snapshot{
     std::vector<char> capturedByWhite;
     std::vector<char> capturedByBlack;
 };
-
