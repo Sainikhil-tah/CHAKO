@@ -1,0 +1,53 @@
+
+============================================================
+TEST RUN : 2026-05-19 22:40:49.891838
+============================================================
+NUM_GAMES       : 3
+GAME_DEPTH      : 4
+TIME_LIMIT      : 0.2
+STOCKFISH_ELO   : 1400
+STOCKFISH_DEPTH : 2
+PRINT_MOVES     : False
+PRINT_FINAL_BOARD : False
+
+
+================ GAME 1 ================
+Game   1 | WON  | Engine=WHITE | Termination=CHECKMATE              | Winner=White | MatDiff=+26 | Moves=63 | GameTime=22.48s
+Average Nodes searched : 69451.12
+
+================ GAME 2 ================
+Game   2 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= -1 | Moves=35 | GameTime=11.09s
+Average Nodes searched : 47444.82
+
+================ GAME 3 ================
+Game   3 | WON  | Engine=WHITE | Termination=CHECKMATE              | Winner=White | MatDiff=+18 | Moves=55 | GameTime=13.93s
+Average Nodes searched : 27883.50
+
+========================
+FINAL RESULTS
+========================
+Wins            : 2
+Losses          : 1
+Draws           : 0
+Score           : 0.667
+MY_DEPTH        : 4
+Estimated Elo ≈ 1520
+Stockfish Elo   : 1400
+Stockfish Depth : 2
+
+========================
+TIME STATS
+========================
+My engine moves      : 77
+My engine total time : 3.1596s
+My engine avg time   : 0.0410s/move
+
+Stockfish moves      : 76
+Stockfish total time : 0.0781s
+Stockfish avg time   : 0.0010s/move
+
+All moves            : 153
+All total time       : 3.2377s
+All avg time         : 0.0212s/move
+
+[PASS] All tests completed successfully
