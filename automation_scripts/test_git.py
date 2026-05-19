@@ -25,7 +25,7 @@ STOCKFISH_DEPTH=int(os.getenv("STOCKFISH_DEPTH",8))
 NUM_GAMES=int(os.getenv("NUM_GAMES",100))
 GAME_DEPTH=int(os.getenv("GAME_DEPTH",4))
 TIME_LIMIT=float(os.getenv("TIME_LIMIT",2.0))
-MAX_PILES=1000
+MAX_PLIES=1000
 with open(LOG_FILE, "a", encoding="utf-8") as f:
     f.write("\n")
     f.write("========================================\n")
