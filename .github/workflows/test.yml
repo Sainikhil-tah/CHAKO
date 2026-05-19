@@ -11,6 +11,11 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v4
 
+    - name: Install build tools
+      run: |
+        sudo apt update
+        sudo apt install -y g++ make
+
     - name: Setup Python
       uses: actions/setup-python@v5
       with:
@@ -18,16 +23,29 @@ jobs:
 
     - name: Install Stockfish
       run: |
-        sudo apt update
-        sudo apt install stockfish -y
+        sudo apt install -y stockfish
 
     - name: Install dependencies
       run: |
         pip install python-chess
 
+    # =========================================
+    # BUILD ENGINE
+    # =========================================
+
     - name: Build engine
       run: |
         make
+
+    - name: Verify build
+      run: |
+        ls -l
+        chmod +x ./chess
+        ./chess uci
+
+    # =========================================
+    # RUN TESTS
+    # =========================================
 
     - name: Run automated test
       run: |
