@@ -1,0 +1,1241 @@
+
+============================================================
+TEST RUN : 2026-05-19 22:51:18.008366
+============================================================
+NUM_GAMES       : 100
+GAME_DEPTH      : 4
+TIME_LIMIT      : 1.69
+STOCKFISH_ELO   : 1800
+STOCKFISH_DEPTH : 8
+PRINT_MOVES     : False
+PRINT_FINAL_BOARD : True
+
+
+================ GAME 1 ================
+. . . r k b r .
+. . . . p p . .
+. . . . . . q .
+p Q P . . . . .
+. . P . . . . p
+. . . . P . . .
+P P . . . P P P
+R . B . . R K .
+Game   1 | DRAW | Engine=WHITE | Termination=FIVEFOLD_REPETITION    | Winner=Draw  | MatDiff= +4 | Moves=51 | GameTime=14.15s
+Average Nodes searched : 28336.00
+
+================ GAME 2 ================
+. k . r . . . .
+. p p . . p p .
+. . . . . n . p
+. N . . . . . .
+Q . . . p . . .
+R . . . . . . P
+P . . . . P P K
+. . q . . . . .
+Game   2 | DRAW | Engine=BLACK | Termination=FIVEFOLD_REPETITION    | Winner=Draw  | MatDiff= -2 | Moves=73 | GameTime=24.66s
+Average Nodes searched : 73532.36
+
+================ GAME 3 ================
+. . . . . . . .
+. R . . . . . .
+. . . N . k . .
+. . . . . Q . .
+. . . . . . . .
+. . . . . . . .
+P . . . . P P P
+. . . . . . K .
+Game   3 | WON  | Engine=WHITE | Termination=CHECKMATE              | Winner=White | MatDiff=+21 | Moves=97 | GameTime=24.83s
+Average Nodes searched : 32160.41
+
+================ GAME 4 ================
+. . . . r r k B
+. p p . . p . .
+p . . . . N . .
+. . . P p . b Q
+. P P . . . R .
+P . . K . . . .
+. . . . . P . P
+q . . . . . . .
+Game   4 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= -1 | Moves=57 | GameTime=17.30s
+Average Nodes searched : 66485.00
+
+================ GAME 5 ================
+. . k . r . . .
+p . . n . . . Q
+. . p . . . . .
+. . . . . . . .
+. P . . . . . .
+. . . b . P . .
+P . q . . . P P
+R . K . . . . R
+Game   5 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= +2 | Moves=66 | GameTime=15.85s
+Average Nodes searched : 22736.18
+
+================ GAME 6 ================
+R . . . . . . .
+k . p . . . . .
+p r . . . . . p
+. . . . . . . .
+. . . . . p . P
+. . . . . B . .
+. . . . . . P K
+. . . . . . . .
+Game   6 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +1 | Moves=79 | GameTime=23.56s
+Average Nodes searched : 17301.13
+
+================ GAME 7 ================
+. . . . . . . .
+. . . . R . Q .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . R . P
+P . P . . . . .
+. K . . . k . .
+Game   7 | WON  | Engine=WHITE | Termination=CHECKMATE              | Winner=White | MatDiff=+22 | Moves=107 | GameTime=29.00s
+Average Nodes searched : 20826.41
+
+================ GAME 8 ================
+r . . . . . . k
+p . . . . . . r
+. . . . . . . R
+. P . b . p . .
+. . p B p . . p
+. . . . . . . .
+. . . . N P . K
+. . . . . . R .
+Game   8 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +0 | Moves=99 | GameTime=30.37s
+Average Nodes searched : 54314.14
+
+================ GAME 9 ================
+. . . . . . k .
+p . . b . . . .
+. p . p . . . .
+. . . P . . . .
+. . P . . . . .
+. . . . . . p P
+P . P . . . P .
+. . . . r . . K
+Game   9 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -6 | Moves=86 | GameTime=23.19s
+Average Nodes searched : 40241.72
+
+================ GAME 10 ================
+. . . . . . k .
+p p p . . . p p
+. . . . . . . r
+. . . . . p . K
+. . b . . P . .
+P . . . . . . P
+. . . . . . r .
+. . . . . . . .
+Game  10 | WON  | Engine=BLACK | Termination=CHECKMATE              | Winner=Black | MatDiff=-16 | Moves=72 | GameTime=25.84s
+Average Nodes searched : 42468.86
+
+================ GAME 11 ================
+. . . . . . . .
+. . k . . . . .
+P . . . . p . .
+. . . . . . p .
+. . . . . . P P
+. P P . . b K .
+. . . . . . q .
+. . . . . . . .
+Game  11 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -9 | Moves=96 | GameTime=28.18s
+Average Nodes searched : 30289.19
+
+================ GAME 12 ================
+r . . . . . . .
+k . Q . . . p p
+p q R . . . . .
+. . . . . . . .
+. . . B . . . .
+. . . . . . . .
+. P . . . P P P
+. . . . . K . .
+Game  12 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +4 | Moves=93 | GameTime=20.38s
+Average Nodes searched : 26110.33
+
+================ GAME 13 ================
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . b . . . .
+. . . . . . p .
+. . . . k . P .
+. . . . . . . .
+. . . . . . K q
+Game  13 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff=-12 | Moves=174 | GameTime=34.86s
+Average Nodes searched : 16213.76
+
+================ GAME 14 ================
+. . . . . B . k
+. . . . . . Q .
+. r . . . . . .
+. . . p . K . .
+. . . . p . . p
+. . . . . . . .
+. . . . . P . .
+. . . . . . . .
+Game  14 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +5 | Moves=141 | GameTime=34.81s
+Average Nodes searched : 32857.27
+
+================ GAME 15 ================
+. . . Q r . . k
+. . p . . p p B
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . b . . .
+P P P K b q P P
+. . . R . . . R
+Game  15 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= +7 | Moves=42 | GameTime=13.84s
+Average Nodes searched : 30213.19
+
+================ GAME 16 ================
+k . . . . . . .
+Q . . . . . . .
+. . R . . . . .
+. . . . . . . .
+. . . B . p . .
+p . . . . P . .
+p . . . N K . .
+. . . . . . . .
+Game  16 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff=+18 | Moves=105 | GameTime=28.92s
+Average Nodes searched : 43120.67
+
+================ GAME 17 ================
+r . . r . . k .
+. p . . . p . p
+. . . . p p . .
+. . P . . . . .
+p . . . . . n .
+. . Q . P P . .
+P P P . K . q .
+R . B . R . . .
+Game  17 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= +0 | Moves=50 | GameTime=13.56s
+Average Nodes searched : 36503.04
+
+================ GAME 18 ================
+. . . . . Q . .
+. . . . . . . k
+. K . . . N . p
+. . . . . P . .
+. . . . . . . .
+. . . . . . . .
+. . p . . . . .
+. . . . . . . .
+Game  18 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff=+11 | Moves=139 | GameTime=39.87s
+Average Nodes searched : 45982.10
+
+================ GAME 19 ================
+. . . . . . . k
+. . . . . p p .
+. . . . . . r p
+p . . . R . . .
+. . . . . n . q
+P . . . . . . .
+. P . . . . . .
+. . . . . . . K
+Game  19 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff=-14 | Moves=92 | GameTime=24.72s
+Average Nodes searched : 54130.04
+
+================ GAME 20 ================
+k . R . . . . .
+r p . . . . R .
+p . . N . . . .
+. . . . . . . .
+. . . . . . . p
+P K . . . . . .
+. . P . . . . .
+. . . . . . . .
+Game  20 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +7 | Moves=69 | GameTime=16.21s
+Average Nodes searched : 18768.56
+
+================ GAME 21 ================
+. . . . . . . .
+. . . . . . . .
+. . . . . k . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . q . . . .
+K . . r . . . .
+Game  21 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff=-14 | Moves=128 | GameTime=28.60s
+Average Nodes searched : 21190.11
+
+================ GAME 22 ================
+Q . . . . . . .
+. . . . . . . .
+k . . . . . . .
+. . . . . K . .
+. . . . . . . .
+. . . . . . . .
+. Q . . . . . .
+. . . . . . . .
+Game  22 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff=+18 | Moves=239 | GameTime=48.29s
+Average Nodes searched : 21645.55
+
+================ GAME 23 ================
+. . . Q . . . .
+. . r . . . . .
+p . k . p . q .
+p . . p P . B .
+. . n . . . . .
+. R P . . . . P
+P . P . . P P .
+. . . . R . K .
+Game  23 | DRAW | Engine=WHITE | Termination=FIVEFOLD_REPETITION    | Winner=Draw  | MatDiff= +8 | Moves=76 | GameTime=16.32s
+Average Nodes searched : 51397.66
+
+================ GAME 24 ================
+R . . k . . . .
+. R . . . . . .
+. . . . . . . .
+. . . P . . P .
+. . . . . . . p
+. . P . . p . P
+. . . . . P . K
+. . . . . . . .
+Game  24 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff=+13 | Moves=117 | GameTime=38.78s
+Average Nodes searched : 58477.93
+
+================ GAME 25 ================
+. . R . . . . .
+. . . . . . . p
+. . . b p . p k
+p . . . . . . .
+. p P . . . . .
+. . . . . . N n
+P . . . . q . P
+. . . . R K . .
+Game  25 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -4 | Moves=90 | GameTime=26.69s
+Average Nodes searched : 39442.69
+
+================ GAME 26 ================
+. . . . r . . .
+k . . . . . p p
+. . Q . p . q .
+. . . p P . . .
+. . . B . P . P
+. R . . P . . .
+. . . . . . P .
+. . . . . . K .
+Game  26 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +4 | Moves=93 | GameTime=29.69s
+Average Nodes searched : 55714.89
+
+================ GAME 27 ================
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . P . . . .
+p Q k . . . . .
+P . . . . B . .
+. . P . . P P P
+. . . . . . K .
+Game  27 | WON  | Engine=WHITE | Termination=CHECKMATE              | Winner=White | MatDiff=+17 | Moves=95 | GameTime=25.09s
+Average Nodes searched : 33075.71
+
+================ GAME 28 ================
+. . . . . . k R
+. . . . . . . .
+. . . . . . P p
+. p . . . . . P
+. P . B r p . .
+. P . . . . . .
+. K P . P . . .
+. . . . . . . .
+Game  28 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +6 | Moves=97 | GameTime=14.64s
+Average Nodes searched : 18734.15
+
+================ GAME 29 ================
+. . . . . . . .
+. . . . k . . P
+. . . . P . . .
+. . b . . . . .
+. . . . . . . .
+P . . . . . . .
+. . P . r . . .
+. . . . . . r K
+Game  29 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -9 | Moves=142 | GameTime=38.20s
+Average Nodes searched : 26246.51
+
+================ GAME 30 ================
+r n b q k b . r
+p p p n p . . .
+. . . . p . Q .
+. . . p . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P . P P P
+R N B . K . N R
+Game  30 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= -2 | Moves=13 | GameTime=3.80s
+Average Nodes searched : 15402.67
+
+================ GAME 31 ================
+r . . . k . . r
+p Q . . . p p .
+. . n . p . p .
+. . p p P . . .
+. . . . . . . .
+. . N . P P q .
+P P P . . . . .
+R . B . . n . K
+Game  31 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -6 | Moves=30 | GameTime=8.56s
+Average Nodes searched : 32598.27
+
+================ GAME 32 ================
+. . . . . . . R
+. p . . . . p k
+p . . . . . N p
+. . p . . P . .
+q . . . p . P .
+P . . . B . . .
+. P . . . P . .
+. K . R . . . .
+Game  32 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +6 | Moves=93 | GameTime=32.03s
+Average Nodes searched : 99798.28
+
+================ GAME 33 ================
+r . b . . . r .
+. p . P . k . p
+p . . . . p . .
+. . . . b . . P
+. . . . . . . .
+. . N . . q . .
+P P P . . P . .
+R . . . . R . K
+Game  33 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff=-10 | Moves=46 | GameTime=13.31s
+Average Nodes searched : 84615.78
+
+================ GAME 34 ================
+. . . . . b . r
+. . . . . p p p
+. . p . . q . .
+p . . . . . . .
+. k b Q R . . .
+. . N N . . . .
+P P . . . P P P
+R . . . . . K .
+Game  34 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +5 | Moves=43 | GameTime=11.20s
+Average Nodes searched : 32002.19
+
+================ GAME 35 ================
+. r . . . . k .
+. . p b . . p p
+. . . . . . . .
+. . . P p . . .
+. . . . P . . .
+. . P B . n . .
+P . P . . P . q
+R . . R . . . K
+Game  35 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -5 | Moves=72 | GameTime=17.15s
+Average Nodes searched : 35545.22
+
+================ GAME 36 ================
+. . . . R Q . k
+p p p . . . p p
+. . . . . . . .
+. . . . . p . .
+. . B n . . . .
+. . p . . . P .
+P b P . . P . P
+. . . . . . K .
+Game  36 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +9 | Moves=43 | GameTime=12.93s
+Average Nodes searched : 38780.48
+
+================ GAME 37 ================
+. . . . . . . .
+. . . b k . p p
+. . . p . n . .
+. . p B p . . .
+p . . . P . . .
+P . . . . . . .
+P . P . . P P P
+. . r . . . K .
+Game  37 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -7 | Moves=52 | GameTime=18.32s
+Average Nodes searched : 59090.54
+
+================ GAME 38 ================
+r . . . . . . r
+p . p . . p . p
+p . . . p . . k
+. . . . . . Q .
+. . . . . . . P
+. . . . . . . .
+P . P . . P P .
+R . . . K . . R
+Game  38 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +8 | Moves=37 | GameTime=14.56s
+Average Nodes searched : 23872.78
+
+================ GAME 39 ================
+. . . . . . k .
+R . . R . . . .
+. . p . . . r .
+. . . p . . . .
+. P . P . b . p
+. . . . . . . P
+. P P . . . . K
+. . . . . . r .
+Game  39 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -1 | Moves=72 | GameTime=21.68s
+Average Nodes searched : 34758.28
+
+================ GAME 40 ================
+. . . Q . k r .
+. r . . . p p .
+p . . . . . . .
+. . . . . . . p
+. . . . p P . P
+. . . . P . R B
+P . . . . . . P
+. . . . K . . .
+Game  40 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +7 | Moves=69 | GameTime=26.82s
+Average Nodes searched : 52327.21
+
+================ GAME 41 ================
+. k . . . . r .
+. . . . . . . .
+b . . N . . . .
+. . B . R . . .
+. . . . . . . .
+. . . . . . q P
+P P P . . K . .
+R . . . . . . .
+Game  41 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= +3 | Moves=64 | GameTime=28.12s
+Average Nodes searched : 36902.53
+
+================ GAME 42 ================
+R . . r r . . .
+R k p . . p p .
+. . q . p b . p
+. p . . p . . .
+. . p . . . . .
+. . . . B . . .
+. P . . Q P P .
+. . . . . . K .
+Game  42 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= -5 | Moves=63 | GameTime=25.11s
+Average Nodes searched : 42867.81
+
+================ GAME 43 ================
+. . . k . . . .
+. . . p . . . .
+. . . n . . . .
+. . R P P . . .
+. . . . . . . P
+. B N . . p . K
+. P P . . . r .
+. . . . . . . r
+Game  43 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= +1 | Moves=80 | GameTime=27.98s
+Average Nodes searched : 33973.35
+
+================ GAME 44 ================
+. . . Q . k . r
+p . N . p p b p
+. . . . . . p .
+. . . . . . . .
+. . p . . P . .
+. . . . . . . .
+P . . . . P . P
+n . K . . B . R
+Game  44 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +7 | Moves=53 | GameTime=14.04s
+Average Nodes searched : 22590.12
+
+================ GAME 45 ================
+. . . . . . . .
+. . . R . . . .
+. . . . . . . .
+. . . . . . . P
+. . . N . . Q k
+. P . . . . . P
+. . P . . P . .
+. . . . . . K .
+Game  45 | WON  | Engine=WHITE | Termination=CHECKMATE              | Winner=White | MatDiff=+22 | Moves=107 | GameTime=22.74s
+Average Nodes searched : 25945.41
+
+================ GAME 46 ================
+. . . . . . k .
+p . . . . . p .
+. n p b . . . .
+. P . . p . p .
+. . K . . . . .
+r . . . . . . .
+. . . . . . . .
+. . . . n . . .
+Game  46 | WON  | Engine=BLACK | Termination=CHECKMATE              | Winner=Black | MatDiff=-18 | Moves=74 | GameTime=16.55s
+Average Nodes searched : 22602.32
+
+================ GAME 47 ================
+. . . . . . . .
+. . . . . . . r
+. . . . . . . .
+. . . . . . k .
+. . . . . . . .
+. . . . . . . K
+. . . . . . . .
+. . . . . . q .
+Game  47 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff=-14 | Moves=186 | GameTime=58.19s
+Average Nodes searched : 37687.45
+
+================ GAME 48 ================
+. . k r . . . r
+p . p . . p p p
+Q . . . p n . .
+. . . p N . . .
+. . . P . . . .
+b . P . P . . P
+P . . N . P . .
+. R . . . . K .
+Game  48 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +3 | Moves=43 | GameTime=13.72s
+Average Nodes searched : 61617.19
+
+================ GAME 49 ================
+. . . . . Q . .
+. . . . . . . .
+. . . . . . . .
+. p . . . . b .
+. . . . . . P .
+P . . . . . B .
+K . k . . . P .
+. q . . . . . .
+Game  49 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= +2 | Moves=116 | GameTime=41.38s
+Average Nodes searched : 33653.78
+
+================ GAME 50 ================
+k . . . . . . .
+. . . K . . . .
+. . . . N . . p
+Q . . . . . . .
+. . . . r . . .
+. . p . . . . .
+. . . . . . . .
+. R . . . . . .
+Game  50 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff=+10 | Moves=117 | GameTime=23.05s
+Average Nodes searched : 16186.50
+
+================ GAME 51 ================
+r . . . k b . .
+p p p . . p . .
+. . . . . . . .
+. . . . . . . .
+. . . P . . r .
+. . . . P . . .
+P P b . . P q P
+R . B . . . . K
+Game  51 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff=-15 | Moves=44 | GameTime=12.88s
+Average Nodes searched : 45749.64
+
+================ GAME 52 ================
+. . Q . k . . r
+. . p . . p p p
+. . . . . . . .
+. . . . . . . .
+. . . R . . . .
+B . . . . . . P
+p . . . . . P .
+. . . . . . . K
+Game  52 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +9 | Moves=69 | GameTime=26.86s
+Average Nodes searched : 60182.76
+
+================ GAME 53 ================
+. . . . . k . .
+. . . . . . . .
+. . . R . p . p
+. . . . p b . .
+. p . . . . . .
+. N . . . B . .
+P P . . . . P P
+K q . . . . . .
+Game  53 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -1 | Moves=84 | GameTime=21.53s
+Average Nodes searched : 38534.48
+
+================ GAME 54 ================
+. . . . . . k r
+p . . . . p . p
+. . . . . . . .
+. . . . . . p .
+. . p . p . . .
+. . . . . . . .
+. b K R . . . .
+. . q . . . . .
+Game  54 | WON  | Engine=BLACK | Termination=CHECKMATE              | Winner=Black | MatDiff=-18 | Moves=88 | GameTime=15.57s
+Average Nodes searched : 23245.48
+
+================ GAME 55 ================
+. . b . . b . .
+. . k . . . . .
+. . p . . p . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . p
+P P . . . P . P
+. . . . r . K R
+Game  55 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -5 | Moves=92 | GameTime=33.33s
+Average Nodes searched : 20575.50
+
+================ GAME 56 ================
+. k . r . . . r
+. . . . . . p .
+p . Q . . . . p
+. . . . . . . .
+. . . . p . q .
+. . . . B . . P
+. . . . . P P .
+. R . . . . K .
+Game  56 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= -3 | Moves=63 | GameTime=18.68s
+Average Nodes searched : 43102.65
+
+================ GAME 57 ================
+. . . . k n . .
+. . p . Q . R .
+. p . . . . . .
+p . . . p . . .
+. . . P . . . .
+. P . . K . . P
+. P . . . P . .
+R . . . . . . .
+Game  57 | WON  | Engine=WHITE | Termination=CHECKMATE              | Winner=White | MatDiff=+17 | Moves=73 | GameTime=22.83s
+Average Nodes searched : 43240.57
+
+================ GAME 58 ================
+. . . . R . k .
+. . R . . . p r
+. . . B . . . p
+. . . . . P . .
+p . . . K . . .
+. . . . P . . .
+r . . . . . . .
+. . . . . . . .
+Game  58 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +2 | Moves=87 | GameTime=22.84s
+Average Nodes searched : 32120.40
+
+================ GAME 59 ================
+. . . . . . . .
+. . . . . . . .
+p . n . p . p .
+. p . . . . . .
+. . . . P . . P
+P . . . . k b K
+. P P . . . . .
+. R . N . . . r
+Game  59 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -2 | Moves=74 | GameTime=19.40s
+Average Nodes searched : 29959.32
+
+================ GAME 60 ================
+. k . . . . . .
+. . p . . . . p
+. p . q K . . .
+. . . . . . . .
+. . . . p . . .
+. . . . . . . .
+. . . . . r . .
+. . . . . . . .
+Game  60 | WON  | Engine=BLACK | Termination=CHECKMATE              | Winner=Black | MatDiff=-18 | Moves=106 | GameTime=32.38s
+Average Nodes searched : 40541.94
+
+================ GAME 61 ================
+. . . . . . k .
+. . . . . . R R
+. . . . . . . .
+. . . . P . . .
+. . . . . . . .
+P . r . . P . P
+. . . . . P . K
+. . . . . . . .
+Game  61 | DRAW | Engine=WHITE | Termination=FIVEFOLD_REPETITION    | Winner=Draw  | MatDiff=+10 | Moves=135 | GameTime=42.25s
+Average Nodes searched : 34491.44
+
+================ GAME 62 ================
+. . k . . . . r
+. . p . . . p p
+p . . . p . . .
+. . . . . p . .
+. . p . . K . .
+. . q . . . . P
+. . . . . . . .
+. . q . . . . .
+Game  62 | WON  | Engine=BLACK | Termination=CHECKMATE              | Winner=Black | MatDiff=-29 | Moves=70 | GameTime=13.45s
+Average Nodes searched : 23365.97
+
+================ GAME 63 ================
+. . . . Q . . .
+. . . . . . . r
+. . p . . B . .
+. . P . P . . .
+p . P P . . . P
+P . . . b . k .
+. . . . . . . r
+. . . . . . . K
+Game  63 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= +3 | Moves=92 | GameTime=21.84s
+Average Nodes searched : 30962.28
+
+================ GAME 64 ================
+. . . . . . . .
+k B K . . . . .
+. P . . . . . .
+. . . . . . . .
+. . P . . . . .
+p . . . . . . .
+. . . . . . . p
+. . . . . . . .
+Game  64 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +3 | Moves=157 | GameTime=24.69s
+Average Nodes searched : 16243.33
+
+================ GAME 65 ================
+. . . . . . . .
+. . . . . . . .
+. P . . . . . .
+. . . . b k p .
+P . . . . . . .
+. . q . . . . .
+K . P . . . . .
+r . . . . . . .
+Game  65 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff=-15 | Moves=130 | GameTime=35.13s
+Average Nodes searched : 37051.22
+
+================ GAME 66 ================
+. . . . . . . R
+. Q . . k . p .
+. . . . p . . p
+. . . . B . . .
+. p . . p . . .
+. . . . P . P .
+. . . . K P . P
+. . . . . . . .
+Game  66 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff=+16 | Moves=87 | GameTime=19.08s
+Average Nodes searched : 21481.58
+
+================ GAME 67 ================
+. . . . . . . k
+. . . . . . p .
+. . . p . . . p
+. Q . P . . . .
+. . . . . q . .
+P B . . . . K P
+. P P . . r . .
+. . . . . . R .
+Game  67 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= +5 | Moves=84 | GameTime=20.59s
+Average Nodes searched : 43588.98
+
+================ GAME 68 ================
+r n b . . r k .
+p p p p . p Q p
+. . . . . . p .
+q . b p . . . N
+. . . . . . . .
+. . P B . . . .
+. . . . . P P P
+. N . . R . K .
+Game  68 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= -9 | Moves=37 | GameTime=10.55s
+Average Nodes searched : 40656.50
+
+================ GAME 69 ================
+. . . . . . . k
+. . . . . P . .
+. . . . . . . .
+p . . . . . . .
+. . . . . . . P
+P . P . . . b .
+. P . . . . . .
+. . . . . q . K
+Game  69 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -8 | Moves=94 | GameTime=25.05s
+Average Nodes searched : 44137.81
+
+================ GAME 70 ================
+. . k . r b . r
+. . Q . p p p p
+. . p . . n . .
+. . . p B b . .
+P . . P . . . .
+. . . . P . . P
+. . P . . P P .
+R . . . K . . R
+Game  70 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +4 | Moves=39 | GameTime=12.60s
+Average Nodes searched : 65790.74
+
+================ GAME 71 ================
+. . . . . K . .
+. . . . . . . .
+. . . . q q . .
+. . . . . . . .
+p . . . . . . .
+. . . . . . . .
+. . k . . . . .
+. . . . . . . .
+Game  71 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff=-19 | Moves=140 | GameTime=28.38s
+Average Nodes searched : 23259.87
+
+================ GAME 72 ================
+. . . . . r k .
+. p p . . . Q .
+p . . r . . b B
+. . . P . . . p
+. q B P p . p .
+. . . . . . . .
+. . . . . . P .
+. . . . . R K .
+Game  72 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= -5 | Moves=85 | GameTime=41.45s
+Average Nodes searched : 75848.31
+
+================ GAME 73 ================
+. r b . k . . r
+. p . . p p . .
+p . . P n . p .
+. . . Q . . . p
+. . P . . . . .
+b . . . . N B .
+P q P . B P P P
+. K . R . . . R
+Game  73 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= +1 | Moves=48 | GameTime=21.16s
+Average Nodes searched : 82844.00
+
+================ GAME 74 ================
+. . . . . k . R
+. . . . . p . .
+. . . . . K . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+Game  74 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +4 | Moves=135 | GameTime=24.75s
+Average Nodes searched : 13823.28
+
+================ GAME 75 ================
+. . . . . . . .
+. . . . . . k .
+. . . . . . p .
+. . b . . p . p
+. . . . . . . .
+. P . . . . P P
+. R P r . . . .
+. . . . . r . K
+Game  75 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -7 | Moves=104 | GameTime=52.84s
+Average Nodes searched : 146029.90
+
+================ GAME 76 ================
+R Q k . . . . .
+. . . . . . . .
+. . p . K . . p
+. . P . B . p .
+. . . r . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+Game  76 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff=+10 | Moves=99 | GameTime=29.38s
+Average Nodes searched : 21761.02
+
+================ GAME 77 ================
+. . . . Q . . .
+. . . . . . k .
+. . . . . . Q .
+. . . . . . . .
+. . . P . p . .
+. . . . . . . .
+P . . . . P P P
+. . . . . R K .
+Game  77 | WON  | Engine=WHITE | Termination=CHECKMATE              | Winner=White | MatDiff=+27 | Moves=75 | GameTime=23.60s
+Average Nodes searched : 56170.71
+
+================ GAME 78 ================
+. . . . . r . .
+p p p . r p . .
+. . n . . . . k
+. . . . . . . .
+. . . P p P . .
+P . . . . . . R
+B P . . . . R .
+. K . . . . . .
+Game  78 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= -1 | Moves=63 | GameTime=19.13s
+Average Nodes searched : 37578.35
+
+================ GAME 79 ================
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. k . . . . . .
+. . . . . . . .
+. K . . . . r .
+Game  79 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -5 | Moves=152 | GameTime=37.16s
+Average Nodes searched : 12083.14
+
+================ GAME 80 ================
+r k . . . r . .
+. p Q . n . p p
+. . . p . . . .
+. . p N p . . .
+. . P . P . . .
+P . . . . . . .
+. P . . . . . .
+. . K . . . N q
+Game  80 | DRAW | Engine=BLACK | Termination=FIVEFOLD_REPETITION    | Winner=Draw  | MatDiff= -9 | Moves=83 | GameTime=26.71s
+Average Nodes searched : 41461.15
+
+================ GAME 81 ================
+. . . . . . . .
+. . . . . . . .
+q . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+K . k . . . . .
+. . . . . . . .
+Game  81 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -9 | Moves=154 | GameTime=23.54s
+Average Nodes searched : 12986.25
+
+================ GAME 82 ================
+. Q k . r . . .
+. . . r b p p p
+. p . . . n . .
+. N P p . . . .
+. . . P p B . .
+. . . . . . . P
+. . . . . P P .
+. . . . . . K .
+Game  82 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= -2 | Moves=65 | GameTime=20.56s
+Average Nodes searched : 42155.78
+
+================ GAME 83 ================
+. . . . . . . .
+. . . . . R . .
+. . . . R . . .
+. . . P k . . .
+. . . . . . p .
+. . P . . B . .
+P . . . . P P P
+. . . . . . K .
+Game  83 | WON  | Engine=WHITE | Termination=CHECKMATE              | Winner=White | MatDiff=+18 | Moves=103 | GameTime=22.32s
+Average Nodes searched : 27362.75
+
+================ GAME 84 ================
+. k . . . . . .
+. p . . . . p .
+. . . b . . . p
+. . . p . . . .
+. p . n . . . .
+. . . . . . . .
+. . . r . . . .
+. . . . . q . K
+Game  84 | WON  | Engine=BLACK | Termination=CHECKMATE              | Winner=Black | MatDiff=-25 | Moves=104 | GameTime=26.25s
+Average Nodes searched : 55115.56
+
+================ GAME 85 ================
+. . . . . . . .
+p p . n k p . .
+. . . b . . . .
+. . . . . . r .
+. . p . P . . .
+. . N . . . . b
+P P P . . P . P
+. . . R . . K R
+Game  85 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= +1 | Moves=46 | GameTime=19.79s
+Average Nodes searched : 40186.65
+
+================ GAME 86 ================
+. . . . . . . .
+p k . . . p p p
+. . . . . r . .
+b . . . . . . .
+. . n . . . r .
+. . K . . . . .
+. . . . . . . .
+. . . q . . . .
+Game  86 | WON  | Engine=BLACK | Termination=CHECKMATE              | Winner=Black | MatDiff=-29 | Moves=96 | GameTime=25.96s
+Average Nodes searched : 27830.00
+
+================ GAME 87 ================
+r . . . . . k .
+. . P . . . p .
+. . . . p . . .
+. b . . N p . p
+. . . . . . . .
+. P . . . . . Q
+K P P . . . P P
+. . q . . . . .
+Game  87 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -3 | Moves=66 | GameTime=22.54s
+Average Nodes searched : 57287.00
+
+================ GAME 88 ================
+r . b . . k . Q
+p p . . r p p .
+. . P . p . . p
+. . B . . . . .
+. . . P . . . .
+. . P . P . . .
+P . . . . P P P
+R . . . K . . R
+Game  88 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff=+11 | Moves=33 | GameTime=8.70s
+Average Nodes searched : 23829.62
+
+================ GAME 89 ================
+. . . . . . . .
+. . . . . . . .
+p . . . . . R .
+P p b . . . . .
+. . . . . k P K
+. . . . . . r .
+. . . . . . . r
+. . . . . . . .
+Game  89 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -8 | Moves=104 | GameTime=37.71s
+Average Nodes searched : 32711.75
+
+================ GAME 90 ================
+Q . k . . b r .
+. . . . p p p p
+. B p . . . . .
+. . . . . . . .
+. . p . . P . .
+. . . . P . . .
+P P . . . R K P
+. . . R . . . .
+Game  90 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff=+13 | Moves=53 | GameTime=16.24s
+Average Nodes searched : 32726.88
+
+================ GAME 91 ================
+. . . . k . . r
+. . . . . p B p
+. . . . . . . .
+. . p . . . . .
+. n . . P . . .
+. . . . . . . .
+P . q . . P P P
+R . K . . . . R
+Game  91 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -2 | Moves=56 | GameTime=19.19s
+Average Nodes searched : 51859.50
+
+================ GAME 92 ================
+r . . q . r k .
+p p p b . p . Q
+. . . . . . . .
+. . . p . . p R
+. . . n . . . .
+P . . . P . P .
+. . . N . P P .
+R . . . K . . .
+Game  92 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= -4 | Moves=41 | GameTime=17.49s
+Average Nodes searched : 62022.65
+
+================ GAME 93 ================
+. . . . Q . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . k
+. . . . n Q . .
+P . . B . . . .
+. P . . . P P P
+. . . . R R K .
+Game  93 | WON  | Engine=WHITE | Termination=CHECKMATE              | Winner=White | MatDiff=+33 | Moves=87 | GameTime=22.00s
+Average Nodes searched : 37039.18
+
+================ GAME 94 ================
+. k . . . . . .
+. . p r . . p .
+p . . . . b . .
+. . . . . . . .
+. . . p . . . p
+. . p . q P . P
+. . P . . K . .
+. . . . . . r .
+Game  94 | WON  | Engine=BLACK | Termination=CHECKMATE              | Winner=Black | MatDiff=-25 | Moves=114 | GameTime=37.14s
+Average Nodes searched : 67953.46
+
+================ GAME 95 ================
+. . . . . k . .
+Q . . . . p q .
+. . . . . . . .
+. . p . . . . p
+. . P . . . . .
+. . . . . . . .
+P . P . . . . P
+. . . . . . r K
+Game  95 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -4 | Moves=66 | GameTime=26.44s
+Average Nodes searched : 37546.21
+
+================ GAME 96 ================
+. k . R . b . r
+p . . . p p p p
+. . Q . . . . .
+. . . . p . . .
+. . . . . . . .
+. . P . B P . .
+P q P . . P . P
+. . . . K . . R
+Game  96 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +5 | Moves=37 | GameTime=10.18s
+Average Nodes searched : 15748.78
+
+================ GAME 97 ================
+r . . . . . . .
+. . p k . p P .
+. . . . p . . .
+. . . p n . . .
+. . p . . . . .
+. . N . P b . .
+P P P . . P . .
+R . B Q . . K r
+Game  97 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= +5 | Moves=46 | GameTime=15.51s
+Average Nodes searched : 51096.65
+
+================ GAME 98 ================
+. . . . . . . .
+. . . . . K . k
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . R
+. . . . . . . P
+. . . . . . . .
+Game  98 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= +6 | Moves=129 | GameTime=31.66s
+Average Nodes searched : 20496.53
+
+================ GAME 99 ================
+. . . N . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . P .
+. . . . . P . .
+. . . . n k . .
+. . . . r . . .
+. . . . K . . .
+Game  99 | LOST | Engine=WHITE | Termination=CHECKMATE              | Winner=Black | MatDiff= -3 | Moves=148 | GameTime=39.95s
+Average Nodes searched : 17650.23
+
+================ GAME 100 ================
+r . . . . k . r
+p . p . . Q p p
+. . p . . . . .
+. . . . R . . .
+q . . . . . . .
+P . . . . . . .
+B . p . . P P P
+. . B . . . K .
+Game 100 | LOST | Engine=BLACK | Termination=CHECKMATE              | Winner=White | MatDiff= -1 | Moves=45 | GameTime=15.43s
+Average Nodes searched : 33332.27
+
+========================
+FINAL RESULTS
+========================
+Wins            : 16
+Losses          : 79
+Draws           : 5
+Score           : 0.185
+MY_DEPTH        : 4
+Estimated Elo ≈ 1542
+Stockfish Elo   : 1800
+Stockfish Depth : 8
+
+========================
+TIME STATS
+========================
+My engine moves      : 4294
+My engine total time : 121.0197s
+My engine avg time   : 0.0282s/move
+
+Stockfish moves      : 4326
+Stockfish total time : 37.4955s
+Stockfish avg time   : 0.0087s/move
+
+All moves            : 8620
+All total time       : 158.5152s
+All avg time         : 0.0184s/move
+
+[PASS] All tests completed successfully
