@@ -3,10 +3,6 @@ name: Chess Engine Test
 permissions:
   contents: write
 
-concurrency:
-  group: chess-engine-tests
-  cancel-in-progress: false
-
 on:
   workflow_dispatch:
     inputs:
@@ -114,5 +110,7 @@ jobs:
         git add testing_reports/
 
         git diff --cached --quiet || git commit -m "add testing report"
+
+        git pull --rebase
 
         git push
