@@ -5,25 +5,29 @@ on:
 
 jobs:
   test:
-    runs-on : ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
-    - name : Checkout repo
-      uses : actions/checkout@v4
+    - name: Checkout repo
+      uses: actions/checkout@v4
 
-    - name : Setup Python
-      uses : actions/setup-python@v5
-      with :
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
         python-version: "3.11"
 
-    - name : Install Stockfish
+    - name: Install Stockfish
       run: |
         sudo apt update
         sudo apt install stockfish -y
 
-    - name : Install dependencies
+    - name: Install dependencies
       run: |
         pip install python-chess
+
+    - name: Build engine
+      run: |
+        make
 
     - name: Run automated test
       run: |
