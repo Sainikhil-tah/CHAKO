@@ -4,7 +4,13 @@ import chess.engine
 import math
 import time
 import sys
+LOG_FILE = "STOCKFISH_TESTING_REPORT"
 
+def log(msg):
+    print(msg)
+
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(msg + "\n")
 # =========================================================
 # CONFIG
 # =========================================================
@@ -17,7 +23,7 @@ NUM_GAMES = 1000
 GAME_DEPTH = 4
 
 # 2000 ms per move
-TIME_LIMIT = 2000
+TIME_LIMIT = 2.0
 
 # =========================================================
 # MATERIAL COUNT
@@ -53,13 +59,13 @@ def material_difference(board):
 try:
     sf = chess.engine.SimpleEngine.popen_uci("/usr/games/stockfish")
 except Exception as e:
-    print(f"[FAIL] Could not start Stockfish: {e}")
+    log(f"[FAIL] Could not start Stockfish: {e}")
     sys.exit(1)
 
 try:
     my = chess.engine.SimpleEngine.popen_uci(["./chess", "uci"])
 except Exception as e:
-    print(f"[FAIL] Could not start your engine: {e}")
+    log(f"[FAIL] Could not start your engine: {e}")
     sys.exit(1)
 
 # configure stockfish elo
@@ -70,7 +76,7 @@ sf.configure({
 
 # startup crash check
 if my.poll() is not None:
-    print("[FAIL] Your engine crashed immediately")
+    log("[FAIL] Your engine crashed immediately")
     sys.exit(1)
 
 # =========================================================
@@ -95,7 +101,8 @@ all_nodes_search = 0
 # =========================================================
 # MAIN GAME LOOP
 # =========================================================
-
+with open(LOG_FILE, "w", encoding="utf-8") as f:
+    f.write("========== STOCKFISH TEST REPORT ==========\n")
 for game_num in range(NUM_GAMES):
 
     board = chess.Board()
@@ -108,13 +115,13 @@ for game_num in range(NUM_GAMES):
     my_game_moves = 0
     game_nodes = 0
 
-    print(f"\n================ GAME {game_num + 1} ================")
+    log(f"\n================ GAME {game_num + 1} ================")
 
     while not board.is_game_over():
 
         # engine crash check
         if my.poll() is not None:
-            print("[FAIL] Your engine crashed during game")
+            log("[FAIL] Your engine crashed during game")
             sys.exit(1)
 
         move_no = board.fullmove_number
@@ -153,7 +160,7 @@ for game_num in range(NUM_GAMES):
                     info=chess.engine.INFO_ALL
                 )
             except Exception as e:
-                print(f"[FAIL] Engine crashed while searching: {e}")
+                log(f"[FAIL] Engine crashed while searching: {e}")
                 sys.exit(1)
 
             elapsed = time.perf_counter() - start
@@ -232,21 +239,21 @@ for game_num in range(NUM_GAMES):
         # =================================================
 
         if result.move is None:
-            print("[FAIL] Engine returned null move")
-            print(board.fen())
+            log("[FAIL] Engine returned null move")
+            log(board.fen())
             sys.exit(1)
 
         if result.move not in board.legal_moves:
-            print("[FAIL] Illegal move detected")
-            print(f"Move: {result.move}")
-            print(f"FEN : {board.fen()}")
+            log("[FAIL] Illegal move detected")
+            log(f"Move: {result.move}")
+            log(f"FEN : {board.fen()}")
             sys.exit(1)
 
         # =================================================
-        # PRINT MOVE
+        # log MOVE
         # =================================================
 
-        print(
+        log(
             f"Move {total_moves + 1:>3} | "
             f"FullMove={move_no:>3} | "
             f"Side={side_to_move:<5} | "
@@ -314,9 +321,9 @@ for game_num in range(NUM_GAMES):
         else 0
     )
 
-    print(board)
+    log(board)
 
-    print(
+    log(
         f"Game {game_num + 1:>3} | "
         f"{label:<4} | "
         f"Engine={color:<5} | "
@@ -326,7 +333,7 @@ for game_num in range(NUM_GAMES):
         f"Moves={total_moves}"
     )
 
-    print(f"Average Nodes searched : {avg_nodes:.2f}")
+    log(f"Average Nodes searched : {avg_nodes:.2f}")
 
 # =========================================================
 # FINAL RESULTS
@@ -361,42 +368,42 @@ all_avg_time = (
 )
 
 # =========================================================
-# PRINT STATS
+# log STATS
 # =========================================================
 
-print("\n========================")
-print("FINAL RESULTS")
-print("========================")
+log("\n========================")
+log("FINAL RESULTS")
+log("========================")
 
-print(f"Wins            : {wins}")
-print(f"Losses          : {losses}")
-print(f"Draws           : {draws}")
-print(f"Score           : {score:.3f}")
+log(f"Wins            : {wins}")
+log(f"Losses          : {losses}")
+log(f"Draws           : {draws}")
+log(f"Score           : {score:.3f}")
 
-print(f"MY_DEPTH        : {GAME_DEPTH}")
+log(f"MY_DEPTH        : {GAME_DEPTH}")
 
-print(f"Estimated Elo ≈ {estimated_elo:.0f}")
+log(f"Estimated Elo ≈ {estimated_elo:.0f}")
 
-print(f"Stockfish Elo   : {STOCKFISH_ELO}")
-print(f"Stockfish Depth : {STOCKFISH_DEPTH}")
+log(f"Stockfish Elo   : {STOCKFISH_ELO}")
+log(f"Stockfish Depth : {STOCKFISH_DEPTH}")
 
-print("\n========================")
-print("TIME STATS")
-print("========================")
+log("\n========================")
+log("TIME STATS")
+log("========================")
 
-print(f"My engine moves      : {my_move_count}")
-print(f"My engine total time : {my_total_time:.4f}s")
-print(f"My engine avg time   : {my_avg_time:.4f}s/move")
+log(f"My engine moves      : {my_move_count}")
+log(f"My engine total time : {my_total_time:.4f}s")
+log(f"My engine avg time   : {my_avg_time:.4f}s/move")
 
-print(f"\nStockfish moves      : {sf_move_count}")
-print(f"Stockfish total time : {sf_total_time:.4f}s")
-print(f"Stockfish avg time   : {sf_avg_time:.4f}s/move")
+log(f"\nStockfish moves      : {sf_move_count}")
+log(f"Stockfish total time : {sf_total_time:.4f}s")
+log(f"Stockfish avg time   : {sf_avg_time:.4f}s/move")
 
-print(f"\nAll moves            : {all_move_count}")
-print(f"All total time       : {all_total_time:.4f}s")
-print(f"All avg time         : {all_avg_time:.4f}s/move")
+log(f"\nAll moves            : {all_move_count}")
+log(f"All total time       : {all_total_time:.4f}s")
+log(f"All avg time         : {all_avg_time:.4f}s/move")
 
-print("\n[PASS] All tests completed successfully")
+log("\n[PASS] All tests completed successfully")
 
 # =========================================================
 # CLEANUP
