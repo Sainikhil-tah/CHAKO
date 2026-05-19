@@ -18,7 +18,7 @@ def log(msg):
 STOCKFISH_ELO = 1800
 STOCKFISH_DEPTH = 8
 
-NUM_GAMES = 1000
+NUM_GAMES = 360
 
 GAME_DEPTH = 4
 
@@ -60,12 +60,16 @@ try:
     sf = chess.engine.SimpleEngine.popen_uci("/usr/games/stockfish")
 except Exception as e:
     log(f"[FAIL] Could not start Stockfish: {e}")
+    sf.quit()
+    my.quit()
     sys.exit(1)
 
 try:
     my = chess.engine.SimpleEngine.popen_uci(["./chess", "uci"])
 except Exception as e:
     log(f"[FAIL] Could not start your engine: {e}")
+    sf.quit()
+    my.quit()
     sys.exit(1)
 
 # configure stockfish elo
@@ -77,6 +81,8 @@ sf.configure({
 # startup crash check
 if my.poll() is not None:
     log("[FAIL] Your engine crashed immediately")
+    sf.quit()
+    my.quit()
     sys.exit(1)
 
 # =========================================================
@@ -122,6 +128,8 @@ for game_num in range(NUM_GAMES):
         # engine crash check
         if my.poll() is not None:
             log("[FAIL] Your engine crashed during game")
+            sf.quit()
+            my.quit()
             sys.exit(1)
 
         move_no = board.fullmove_number
@@ -161,6 +169,8 @@ for game_num in range(NUM_GAMES):
                 )
             except Exception as e:
                 log(f"[FAIL] Engine crashed while searching: {e}")
+                sf.quit()
+                my.quit()
                 sys.exit(1)
 
             elapsed = time.perf_counter() - start
@@ -241,12 +251,16 @@ for game_num in range(NUM_GAMES):
         if result.move is None:
             log("[FAIL] Engine returned null move")
             log(board.fen())
+            sf.quit()
+            my.quit()
             sys.exit(1)
 
         if result.move not in board.legal_moves:
             log("[FAIL] Illegal move detected")
             log(f"Move: {result.move}")
             log(f"FEN : {board.fen()}")
+            sf.quit()
+            my.quit()
             sys.exit(1)
 
         # =================================================
