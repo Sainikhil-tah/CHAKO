@@ -10,43 +10,28 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v4
-
     - name: Install build tools
       run: |
         sudo apt update
         sudo apt install -y g++ make
-
     - name: Setup Python
       uses: actions/setup-python@v5
       with:
         python-version: "3.11"
-
     - name: Install Stockfish
       run: |
         sudo apt install -y stockfish
-
     - name: Install dependencies
       run: |
         pip install python-chess
-
-    # =========================================
-    # BUILD ENGINE
-    # =========================================
-
     - name: Build engine
       run: |
         make
-
     - name: Verify build
       run: |
         ls -l
         chmod +x ./chess
         ./chess uci
-
-    # =========================================
-    # RUN TESTS
-    # =========================================
-
     - name: Run automated test
       run: |
         python automation_scripts/test_git.py
