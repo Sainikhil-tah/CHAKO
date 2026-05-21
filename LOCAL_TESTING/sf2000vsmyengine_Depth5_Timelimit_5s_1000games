@@ -1,0 +1,6010 @@
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 1: LOST | Material diff = -6 | TOTAL_MOVES = 176
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 2: LOST | Material diff = -6 | TOTAL_MOVES = 190
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 3: WON | Material diff = 7 | TOTAL_MOVES = 31 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 4: LOST | Material diff = -7 | TOTAL_MOVES = 98
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 5: WON | Material diff = 28 | TOTAL_MOVES = 67 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 6: LOST | Material diff = 7 | TOTAL_MOVES = 38
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 7: WON | Material diff = 9 | TOTAL_MOVES = 79 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 8: WON | Material diff = 27 | TOTAL_MOVES = 51 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 9: DRAW | Material diff = 1 | TOTAL_MOVES = 67
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 10: WON | Material diff = 17 | TOTAL_MOVES = 53 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 11: WON | Material diff = 15 | TOTAL_MOVES = 57 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 12: LOST | Material diff = -6 | TOTAL_MOVES = 188
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 13: WON | Material diff = 29 | TOTAL_MOVES = 103 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 14: LOST | Material diff = 2 | TOTAL_MOVES = 66
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 15: WON | Material diff = 17 | TOTAL_MOVES = 123 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 16: LOST | Material diff = -10 | TOTAL_MOVES = 94
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 17: LOST | Material diff = -9 | TOTAL_MOVES = 134
+
+Termination: INSUFFICIENT_MATERIAL
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 18: DRAW | Material diff = 3 | TOTAL_MOVES = 130
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 19: LOST | Material diff = -5 | TOTAL_MOVES = 194
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 20: WON | Material diff = 25 | TOTAL_MOVES = 49 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 21: LOST | Material diff = -9 | TOTAL_MOVES = 306
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 22: LOST | Material diff = -5 | TOTAL_MOVES = 166
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 23: LOST | Material diff = -18 | TOTAL_MOVES = 176
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 24: DRAW | Material diff = 2 | TOTAL_MOVES = 134
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 25: LOST | Material diff = -6 | TOTAL_MOVES = 110
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 26: LOST | Material diff = -9 | TOTAL_MOVES = 248
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 27: LOST | Material diff = -11 | TOTAL_MOVES = 104
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 28: DRAW | Material diff = 13 | TOTAL_MOVES = 87
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 29: WON | Material diff = 28 | TOTAL_MOVES = 61 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 30: LOST | Material diff = -4 | TOTAL_MOVES = 48
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 31: LOST | Material diff = 5 | TOTAL_MOVES = 44
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 32: LOST | Material diff = -1 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 33: LOST | Material diff = -12 | TOTAL_MOVES = 246
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 34: WON | Material diff = 21 | TOTAL_MOVES = 85 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 35: LOST | Material diff = 0 | TOTAL_MOVES = 66
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 36: WON | Material diff = 22 | TOTAL_MOVES = 107 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 37: WON | Material diff = 27 | TOTAL_MOVES = 87 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 38: LOST | Material diff = 1 | TOTAL_MOVES = 106
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 39: WON | Material diff = 16 | TOTAL_MOVES = 93 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 40: WON | Material diff = 17 | TOTAL_MOVES = 125 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 41: WON | Material diff = 14 | TOTAL_MOVES = 79 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 42: WON | Material diff = 15 | TOTAL_MOVES = 63 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 43: DRAW | Material diff = 13 | TOTAL_MOVES = 82
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 44: LOST | Material diff = -6 | TOTAL_MOVES = 158
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 45: WON | Material diff = 22 | TOTAL_MOVES = 53 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 46: LOST | Material diff = -10 | TOTAL_MOVES = 206
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 47: LOST | Material diff = 5 | TOTAL_MOVES = 78
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 48: DRAW | Material diff = 2 | TOTAL_MOVES = 153
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 49: LOST | Material diff = 2 | TOTAL_MOVES = 56
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 50: WON | Material diff = 29 | TOTAL_MOVES = 69 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 51: LOST | Material diff = -9 | TOTAL_MOVES = 332
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 52: LOST | Material diff = -1 | TOTAL_MOVES = 76
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 53: WON | Material diff = 25 | TOTAL_MOVES = 95 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 54: LOST | Material diff = 4 | TOTAL_MOVES = 78
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 55: LOST | Material diff = -8 | TOTAL_MOVES = 138
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 56: WON | Material diff = 27 | TOTAL_MOVES = 59 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 57: LOST | Material diff = 2 | TOTAL_MOVES = 58
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 58: LOST | Material diff = -10 | TOTAL_MOVES = 76
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 59: LOST | Material diff = -3 | TOTAL_MOVES = 68
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 60: WON | Material diff = 18 | TOTAL_MOVES = 65 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 61: LOST | Material diff = 2 | TOTAL_MOVES = 14
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 62: WON | Material diff = 23 | TOTAL_MOVES = 207 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 63: LOST | Material diff = -14 | TOTAL_MOVES = 86
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 64: LOST | Material diff = -3 | TOTAL_MOVES = 108
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 65: LOST | Material diff = 4 | TOTAL_MOVES = 28
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 66: LOST | Material diff = -8 | TOTAL_MOVES = 108
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 67: DRAW | Material diff = 2 | TOTAL_MOVES = 88
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 68: WON | Material diff = 23 | TOTAL_MOVES = 115 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 69: WON | Material diff = 11 | TOTAL_MOVES = 59 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 70: WON | Material diff = 9 | TOTAL_MOVES = 79 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 71: LOST | Material diff = 2 | TOTAL_MOVES = 116
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 72: WON | Material diff = 27 | TOTAL_MOVES = 81 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 73: LOST | Material diff = -9 | TOTAL_MOVES = 274
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 74: WON | Material diff = 29 | TOTAL_MOVES = 57 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 75: LOST | Material diff = -18 | TOTAL_MOVES = 166
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 76: LOST | Material diff = 2 | TOTAL_MOVES = 94
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 77: LOST | Material diff = 0 | TOTAL_MOVES = 36
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 78: WON | Material diff = 26 | TOTAL_MOVES = 55 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 79: LOST | Material diff = -1 | TOTAL_MOVES = 58
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 80: LOST | Material diff = -1 | TOTAL_MOVES = 168
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 81: DRAW | Material diff = 2 | TOTAL_MOVES = 152
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 82: DRAW | Material diff = 12 | TOTAL_MOVES = 96
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 83: LOST | Material diff = -12 | TOTAL_MOVES = 196
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 84: LOST | Material diff = -4 | TOTAL_MOVES = 46
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 85: LOST | Material diff = 2 | TOTAL_MOVES = 40
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 86: WON | Material diff = 26 | TOTAL_MOVES = 69 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 87: WON | Material diff = 17 | TOTAL_MOVES = 55 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 88: WON | Material diff = 30 | TOTAL_MOVES = 97 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 89: WON | Material diff = 14 | TOTAL_MOVES = 49 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 90: LOST | Material diff = -4 | TOTAL_MOVES = 52
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 91: WON | Material diff = 27 | TOTAL_MOVES = 91 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 92: WON | Material diff = 16 | TOTAL_MOVES = 97 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 93: LOST | Material diff = 2 | TOTAL_MOVES = 52
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 94: WON | Material diff = 25 | TOTAL_MOVES = 59 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 95: LOST | Material diff = 5 | TOTAL_MOVES = 40
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 96: LOST | Material diff = 5 | TOTAL_MOVES = 84
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 97: WON | Material diff = 21 | TOTAL_MOVES = 105 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 98: WON | Material diff = 25 | TOTAL_MOVES = 75 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 99: WON | Material diff = 22 | TOTAL_MOVES = 103 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 100: WON | Material diff = 18 | TOTAL_MOVES = 85 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 101: LOST | Material diff = -2 | TOTAL_MOVES = 52
+
+Termination: INSUFFICIENT_MATERIAL
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 102: DRAW | Material diff = 0 | TOTAL_MOVES = 220
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 103: LOST | Material diff = 3 | TOTAL_MOVES = 70
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 104: LOST | Material diff = -8 | TOTAL_MOVES = 134
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 105: LOST | Material diff = 2 | TOTAL_MOVES = 74
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 106: WON | Material diff = 9 | TOTAL_MOVES = 85 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 107: WON | Material diff = 19 | TOTAL_MOVES = 81 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 108: WON | Material diff = 5 | TOTAL_MOVES = 49 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 109: WON | Material diff = 28 | TOTAL_MOVES = 81 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 110: WON | Material diff = 19 | TOTAL_MOVES = 55 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 111: LOST | Material diff = -4 | TOTAL_MOVES = 32
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 112: LOST | Material diff = -3 | TOTAL_MOVES = 104
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 113: DRAW | Material diff = 1 | TOTAL_MOVES = 134
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 114: DRAW | Material diff = 3 | TOTAL_MOVES = 113
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 115: WON | Material diff = 27 | TOTAL_MOVES = 73 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 116: WON | Material diff = 23 | TOTAL_MOVES = 131 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 117: DRAW | Material diff = 6 | TOTAL_MOVES = 65
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 118: LOST | Material diff = -21 | TOTAL_MOVES = 148
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 119: WON | Material diff = 34 | TOTAL_MOVES = 59 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 120: LOST | Material diff = -7 | TOTAL_MOVES = 162
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 121: WON | Material diff = 22 | TOTAL_MOVES = 79 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 122: WON | Material diff = 19 | TOTAL_MOVES = 75 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 123: LOST | Material diff = 2 | TOTAL_MOVES = 52
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 124: DRAW | Material diff = 5 | TOTAL_MOVES = 186
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 125: LOST | Material diff = 0 | TOTAL_MOVES = 40
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 126: DRAW | Material diff = 12 | TOTAL_MOVES = 160
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 127: WON | Material diff = 27 | TOTAL_MOVES = 69 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 128: WON | Material diff = 11 | TOTAL_MOVES = 41 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 129: WON | Material diff = 21 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 130: LOST | Material diff = -12 | TOTAL_MOVES = 306
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 131: LOST | Material diff = -7 | TOTAL_MOVES = 68
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 132: WON | Material diff = 21 | TOTAL_MOVES = 127 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 133: LOST | Material diff = -14 | TOTAL_MOVES = 296
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 134: LOST | Material diff = 0 | TOTAL_MOVES = 78
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 135: LOST | Material diff = -11 | TOTAL_MOVES = 174
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 136: LOST | Material diff = 0 | TOTAL_MOVES = 52
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 137: WON | Material diff = 25 | TOTAL_MOVES = 81 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 138: LOST | Material diff = -10 | TOTAL_MOVES = 118
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 139: WON | Material diff = 18 | TOTAL_MOVES = 73 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 140: LOST | Material diff = 2 | TOTAL_MOVES = 66
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 141: LOST | Material diff = -5 | TOTAL_MOVES = 306
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 142: DRAW | Material diff = 6 | TOTAL_MOVES = 55
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 143: LOST | Material diff = -1 | TOTAL_MOVES = 66
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 144: WON | Material diff = 19 | TOTAL_MOVES = 79 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 145: LOST | Material diff = -5 | TOTAL_MOVES = 64
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 146: DRAW | Material diff = 14 | TOTAL_MOVES = 79
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 147: WON | Material diff = 29 | TOTAL_MOVES = 61 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 148: LOST | Material diff = 1 | TOTAL_MOVES = 62
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 149: WON | Material diff = 34 | TOTAL_MOVES = 81 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 150: DRAW | Material diff = 6 | TOTAL_MOVES = 110
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 151: WON | Material diff = 19 | TOTAL_MOVES = 79 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 152: DRAW | Material diff = 1 | TOTAL_MOVES = 305
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 153: LOST | Material diff = 6 | TOTAL_MOVES = 30
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 154: LOST | Material diff = -11 | TOTAL_MOVES = 140
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 155: LOST | Material diff = -7 | TOTAL_MOVES = 100
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 156: LOST | Material diff = -6 | TOTAL_MOVES = 128
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 157: WON | Material diff = 17 | TOTAL_MOVES = 137 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 158: LOST | Material diff = 13 | TOTAL_MOVES = 70
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 159: LOST | Material diff = -2 | TOTAL_MOVES = 82
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 160: WON | Material diff = 24 | TOTAL_MOVES = 105 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 161: LOST | Material diff = -2 | TOTAL_MOVES = 68
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 162: WON | Material diff = 11 | TOTAL_MOVES = 73 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 163: WON | Material diff = 15 | TOTAL_MOVES = 91 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 164: DRAW | Material diff = 0 | TOTAL_MOVES = 433
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 165: WON | Material diff = 16 | TOTAL_MOVES = 91 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 166: DRAW | Material diff = 5 | TOTAL_MOVES = 346
+
+Termination: INSUFFICIENT_MATERIAL
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 167: DRAW | Material diff = 0 | TOTAL_MOVES = 237
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 168: LOST | Material diff = -9 | TOTAL_MOVES = 172
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 169: WON | Material diff = 10 | TOTAL_MOVES = 59 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 170: WON | Material diff = 18 | TOTAL_MOVES = 111 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 171: WON | Material diff = 16 | TOTAL_MOVES = 43 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 172: LOST | Material diff = -3 | TOTAL_MOVES = 72
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 173: WON | Material diff = 12 | TOTAL_MOVES = 85 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 174: LOST | Material diff = -4 | TOTAL_MOVES = 108
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 175: LOST | Material diff = -3 | TOTAL_MOVES = 80
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 176: LOST | Material diff = -14 | TOTAL_MOVES = 216
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 177: WON | Material diff = 30 | TOTAL_MOVES = 85 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 178: LOST | Material diff = -5 | TOTAL_MOVES = 240
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 179: WON | Material diff = 20 | TOTAL_MOVES = 49 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 180: LOST | Material diff = 0 | TOTAL_MOVES = 60
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 181: LOST | Material diff = -16 | TOTAL_MOVES = 198
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 182: LOST | Material diff = -10 | TOTAL_MOVES = 142
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 183: LOST | Material diff = -14 | TOTAL_MOVES = 122
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 184: WON | Material diff = 27 | TOTAL_MOVES = 55 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 185: LOST | Material diff = 1 | TOTAL_MOVES = 66
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 186: LOST | Material diff = 2 | TOTAL_MOVES = 92
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 187: WON | Material diff = 8 | TOTAL_MOVES = 45 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 188: WON | Material diff = 16 | TOTAL_MOVES = 79 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 189: WON | Material diff = 10 | TOTAL_MOVES = 155 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 190: DRAW | Material diff = 4 | TOTAL_MOVES = 92
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 191: LOST | Material diff = -6 | TOTAL_MOVES = 148
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 192: WON | Material diff = 20 | TOTAL_MOVES = 77 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 193: LOST | Material diff = -13 | TOTAL_MOVES = 120
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 194: LOST | Material diff = -7 | TOTAL_MOVES = 144
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 195: LOST | Material diff = 0 | TOTAL_MOVES = 40
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 196: WON | Material diff = 20 | TOTAL_MOVES = 69 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 197: LOST | Material diff = -10 | TOTAL_MOVES = 38
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 198: LOST | Material diff = 4 | TOTAL_MOVES = 104
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 199: LOST | Material diff = 7 | TOTAL_MOVES = 42
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 200: WON | Material diff = 27 | TOTAL_MOVES = 65 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 201: WON | Material diff = 27 | TOTAL_MOVES = 49 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 202: WON | Material diff = 30 | TOTAL_MOVES = 81 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 203: DRAW | Material diff = 4 | TOTAL_MOVES = 46
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 204: WON | Material diff = 23 | TOTAL_MOVES = 151 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 205: WON | Material diff = 21 | TOTAL_MOVES = 309 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 206: WON | Material diff = 15 | TOTAL_MOVES = 103 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 207: LOST | Material diff = 0 | TOTAL_MOVES = 90
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 208: DRAW | Material diff = 7 | TOTAL_MOVES = 104
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 209: DRAW | Material diff = 4 | TOTAL_MOVES = 73
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 210: LOST | Material diff = -1 | TOTAL_MOVES = 58
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 211: LOST | Material diff = -7 | TOTAL_MOVES = 144
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 212: LOST | Material diff = -3 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 213: LOST | Material diff = -8 | TOTAL_MOVES = 66
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 214: WON | Material diff = 30 | TOTAL_MOVES = 89 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 215: WON | Material diff = 26 | TOTAL_MOVES = 73 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 216: LOST | Material diff = -12 | TOTAL_MOVES = 202
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 217: DRAW | Material diff = 2 | TOTAL_MOVES = 335
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 218: WON | Material diff = 22 | TOTAL_MOVES = 45 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 219: WON | Material diff = 18 | TOTAL_MOVES = 67 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 220: LOST | Material diff = -1 | TOTAL_MOVES = 84
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 221: WON | Material diff = 16 | TOTAL_MOVES = 89 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 222: LOST | Material diff = -15 | TOTAL_MOVES = 150
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 223: LOST | Material diff = -9 | TOTAL_MOVES = 362
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 224: WON | Material diff = 14 | TOTAL_MOVES = 63 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 225: LOST | Material diff = -2 | TOTAL_MOVES = 96
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 226: WON | Material diff = 20 | TOTAL_MOVES = 93 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 227: DRAW | Material diff = 2 | TOTAL_MOVES = 120
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 228: LOST | Material diff = -5 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 229: LOST | Material diff = -10 | TOTAL_MOVES = 116
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 230: LOST | Material diff = 5 | TOTAL_MOVES = 64
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 231: WON | Material diff = 26 | TOTAL_MOVES = 53 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 232: DRAW | Material diff = 4 | TOTAL_MOVES = 189
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 233: LOST | Material diff = 0 | TOTAL_MOVES = 98
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 234: LOST | Material diff = -10 | TOTAL_MOVES = 116
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 235: LOST | Material diff = -5 | TOTAL_MOVES = 262
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 236: LOST | Material diff = -9 | TOTAL_MOVES = 204
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 237: WON | Material diff = 20 | TOTAL_MOVES = 65 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 238: DRAW | Material diff = 7 | TOTAL_MOVES = 55
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 239: LOST | Material diff = -6 | TOTAL_MOVES = 184
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 240: WON | Material diff = 19 | TOTAL_MOVES = 69 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 241: WON | Material diff = 20 | TOTAL_MOVES = 85 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 242: WON | Material diff = 25 | TOTAL_MOVES = 97 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 243: LOST | Material diff = -12 | TOTAL_MOVES = 114
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 244: LOST | Material diff = 9 | TOTAL_MOVES = 70
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 245: LOST | Material diff = -20 | TOTAL_MOVES = 178
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 246: LOST | Material diff = -1 | TOTAL_MOVES = 68
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 247: LOST | Material diff = -5 | TOTAL_MOVES = 68
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 248: LOST | Material diff = 0 | TOTAL_MOVES = 148
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 249: LOST | Material diff = -9 | TOTAL_MOVES = 88
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 250: LOST | Material diff = -1 | TOTAL_MOVES = 74
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 251: DRAW | Material diff = -5 | TOTAL_MOVES = 313
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 252: DRAW | Material diff = 11 | TOTAL_MOVES = 96
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 253: LOST | Material diff = -5 | TOTAL_MOVES = 322
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 254: LOST | Material diff = -2 | TOTAL_MOVES = 100
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 255: WON | Material diff = 23 | TOTAL_MOVES = 99 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 256: LOST | Material diff = -1 | TOTAL_MOVES = 88
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 257: DRAW | Material diff = 1 | TOTAL_MOVES = 428
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 258: WON | Material diff = 24 | TOTAL_MOVES = 71 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 259: WON | Material diff = 13 | TOTAL_MOVES = 93 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 260: LOST | Material diff = 5 | TOTAL_MOVES = 154
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 261: DRAW | Material diff = 9 | TOTAL_MOVES = 323
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 262: WON | Material diff = 18 | TOTAL_MOVES = 89 
+
+Termination: STALEMATE
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 263: DRAW | Material diff = -8 | TOTAL_MOVES = 464
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 264: LOST | Material diff = -1 | TOTAL_MOVES = 80
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 265: LOST | Material diff = -5 | TOTAL_MOVES = 180
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 266: LOST | Material diff = 9 | TOTAL_MOVES = 66
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 267: LOST | Material diff = -9 | TOTAL_MOVES = 138
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 268: WON | Material diff = 11 | TOTAL_MOVES = 45 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 269: DRAW | Material diff = 2 | TOTAL_MOVES = 162
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 270: WON | Material diff = 21 | TOTAL_MOVES = 67 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 271: LOST | Material diff = 8 | TOTAL_MOVES = 64
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 272: LOST | Material diff = -8 | TOTAL_MOVES = 112
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 273: LOST | Material diff = -3 | TOTAL_MOVES = 88
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 274: WON | Material diff = 18 | TOTAL_MOVES = 57 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 275: LOST | Material diff = -9 | TOTAL_MOVES = 316
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 276: WON | Material diff = 19 | TOTAL_MOVES = 115 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 277: LOST | Material diff = -8 | TOTAL_MOVES = 144
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 278: LOST | Material diff = 1 | TOTAL_MOVES = 68
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 279: WON | Material diff = 26 | TOTAL_MOVES = 73 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 280: LOST | Material diff = -6 | TOTAL_MOVES = 98
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 281: DRAW | Material diff = 15 | TOTAL_MOVES = 109
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 282: LOST | Material diff = -13 | TOTAL_MOVES = 78
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 283: LOST | Material diff = 4 | TOTAL_MOVES = 56
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 284: LOST | Material diff = -5 | TOTAL_MOVES = 148
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 285: LOST | Material diff = -14 | TOTAL_MOVES = 162
+
+Termination: INSUFFICIENT_MATERIAL
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 286: DRAW | Material diff = -3 | TOTAL_MOVES = 134
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 287: DRAW | Material diff = 7 | TOTAL_MOVES = 144
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 288: LOST | Material diff = 1 | TOTAL_MOVES = 56
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 289: WON | Material diff = 15 | TOTAL_MOVES = 67 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 290: WON | Material diff = 15 | TOTAL_MOVES = 87 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 291: WON | Material diff = 23 | TOTAL_MOVES = 49 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 292: LOST | Material diff = -1 | TOTAL_MOVES = 88
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 293: WON | Material diff = 31 | TOTAL_MOVES = 81 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 294: LOST | Material diff = -9 | TOTAL_MOVES = 346
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 295: WON | Material diff = 26 | TOTAL_MOVES = 87 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 296: LOST | Material diff = -15 | TOTAL_MOVES = 166
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 297: LOST | Material diff = -6 | TOTAL_MOVES = 118
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 298: WON | Material diff = 18 | TOTAL_MOVES = 115 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 299: WON | Material diff = 15 | TOTAL_MOVES = 137 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 300: WON | Material diff = 22 | TOTAL_MOVES = 107 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 301: WON | Material diff = 25 | TOTAL_MOVES = 79 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 302: WON | Material diff = 33 | TOTAL_MOVES = 65 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 303: DRAW | Material diff = 7 | TOTAL_MOVES = 44
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 304: WON | Material diff = 9 | TOTAL_MOVES = 71 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 305: LOST | Material diff = -14 | TOTAL_MOVES = 198
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 306: WON | Material diff = 20 | TOTAL_MOVES = 69 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 307: LOST | Material diff = -6 | TOTAL_MOVES = 148
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 308: WON | Material diff = 28 | TOTAL_MOVES = 65 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 309: LOST | Material diff = 5 | TOTAL_MOVES = 64
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 310: LOST | Material diff = -8 | TOTAL_MOVES = 102
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 311: DRAW | Material diff = 2 | TOTAL_MOVES = 197
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 312: LOST | Material diff = 6 | TOTAL_MOVES = 38
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 313: WON | Material diff = 27 | TOTAL_MOVES = 77 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 314: WON | Material diff = 17 | TOTAL_MOVES = 103 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 315: LOST | Material diff = -14 | TOTAL_MOVES = 160
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 316: WON | Material diff = 24 | TOTAL_MOVES = 169 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 317: LOST | Material diff = 6 | TOTAL_MOVES = 62
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 318: LOST | Material diff = 4 | TOTAL_MOVES = 72
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 319: WON | Material diff = 15 | TOTAL_MOVES = 79 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 320: WON | Material diff = 12 | TOTAL_MOVES = 85 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 321: WON | Material diff = 22 | TOTAL_MOVES = 101 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 322: LOST | Material diff = -2 | TOTAL_MOVES = 110
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 323: LOST | Material diff = -11 | TOTAL_MOVES = 144
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 324: DRAW | Material diff = 4 | TOTAL_MOVES = 85
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 325: DRAW | Material diff = 9 | TOTAL_MOVES = 87
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 326: LOST | Material diff = 2 | TOTAL_MOVES = 78
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 327: WON | Material diff = 11 | TOTAL_MOVES = 41 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 328: WON | Material diff = 17 | TOTAL_MOVES = 55 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 329: WON | Material diff = 20 | TOTAL_MOVES = 103 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 330: WON | Material diff = 18 | TOTAL_MOVES = 103 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 331: WON | Material diff = 29 | TOTAL_MOVES = 73 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 332: DRAW | Material diff = 6 | TOTAL_MOVES = 48
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 333: LOST | Material diff = 6 | TOTAL_MOVES = 46
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 334: LOST | Material diff = 4 | TOTAL_MOVES = 106
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 335: WON | Material diff = 19 | TOTAL_MOVES = 119 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 336: WON | Material diff = 19 | TOTAL_MOVES = 67 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 337: WON | Material diff = 16 | TOTAL_MOVES = 103 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 338: LOST | Material diff = -5 | TOTAL_MOVES = 302
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 339: LOST | Material diff = -3 | TOTAL_MOVES = 40
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 340: LOST | Material diff = -12 | TOTAL_MOVES = 162
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 341: WON | Material diff = 18 | TOTAL_MOVES = 111 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 342: WON | Material diff = 31 | TOTAL_MOVES = 61 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 343: WON | Material diff = 32 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 344: LOST | Material diff = -5 | TOTAL_MOVES = 220
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 345: LOST | Material diff = -12 | TOTAL_MOVES = 156
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 346: DRAW | Material diff = 2 | TOTAL_MOVES = 163
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 347: LOST | Material diff = 4 | TOTAL_MOVES = 78
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 348: LOST | Material diff = -3 | TOTAL_MOVES = 60
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 349: DRAW | Material diff = -9 | TOTAL_MOVES = 411
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 350: LOST | Material diff = -5 | TOTAL_MOVES = 244
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 351: WON | Material diff = 20 | TOTAL_MOVES = 49 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 352: LOST | Material diff = -12 | TOTAL_MOVES = 134
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 353: WON | Material diff = 34 | TOTAL_MOVES = 65 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 354: LOST | Material diff = 0 | TOTAL_MOVES = 94
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 355: LOST | Material diff = -9 | TOTAL_MOVES = 210
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 356: LOST | Material diff = -7 | TOTAL_MOVES = 110
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 357: DRAW | Material diff = 7 | TOTAL_MOVES = 85
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 358: WON | Material diff = 26 | TOTAL_MOVES = 71 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 359: LOST | Material diff = 1 | TOTAL_MOVES = 68
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 360: LOST | Material diff = 15 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 361: LOST | Material diff = 5 | TOTAL_MOVES = 114
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 362: WON | Material diff = 7 | TOTAL_MOVES = 65 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 363: LOST | Material diff = -3 | TOTAL_MOVES = 72
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 364: WON | Material diff = 21 | TOTAL_MOVES = 75 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 365: WON | Material diff = 10 | TOTAL_MOVES = 81 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 366: LOST | Material diff = -5 | TOTAL_MOVES = 150
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 367: DRAW | Material diff = 1 | TOTAL_MOVES = 217
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 368: LOST | Material diff = -15 | TOTAL_MOVES = 60
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 369: LOST | Material diff = -3 | TOTAL_MOVES = 94
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 370: LOST | Material diff = -11 | TOTAL_MOVES = 158
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 371: WON | Material diff = 13 | TOTAL_MOVES = 113 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 372: LOST | Material diff = 0 | TOTAL_MOVES = 70
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 373: LOST | Material diff = -9 | TOTAL_MOVES = 118
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 374: LOST | Material diff = -4 | TOTAL_MOVES = 96
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 375: LOST | Material diff = -10 | TOTAL_MOVES = 160
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 376: LOST | Material diff = 2 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 377: WON | Material diff = 32 | TOTAL_MOVES = 61 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 378: WON | Material diff = 20 | TOTAL_MOVES = 167 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 379: WON | Material diff = 33 | TOTAL_MOVES = 61 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 380: WON | Material diff = 16 | TOTAL_MOVES = 59 
+
+Termination: INSUFFICIENT_MATERIAL
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 381: DRAW | Material diff = 3 | TOTAL_MOVES = 186
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 382: WON | Material diff = 14 | TOTAL_MOVES = 71 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 383: LOST | Material diff = 4 | TOTAL_MOVES = 70
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 384: LOST | Material diff = -3 | TOTAL_MOVES = 72
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 385: WON | Material diff = 28 | TOTAL_MOVES = 55 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 386: LOST | Material diff = 0 | TOTAL_MOVES = 96
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 387: WON | Material diff = 19 | TOTAL_MOVES = 77 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 388: WON | Material diff = 24 | TOTAL_MOVES = 171 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 389: LOST | Material diff = -10 | TOTAL_MOVES = 36
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 390: LOST | Material diff = 2 | TOTAL_MOVES = 16
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 391: LOST | Material diff = 4 | TOTAL_MOVES = 48
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 392: WON | Material diff = 16 | TOTAL_MOVES = 59 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 393: LOST | Material diff = -6 | TOTAL_MOVES = 104
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 394: LOST | Material diff = 0 | TOTAL_MOVES = 54
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 395: WON | Material diff = 14 | TOTAL_MOVES = 131 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 396: WON | Material diff = 28 | TOTAL_MOVES = 93 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 397: LOST | Material diff = -9 | TOTAL_MOVES = 224
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 398: DRAW | Material diff = 2 | TOTAL_MOVES = 133
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 399: LOST | Material diff = -1 | TOTAL_MOVES = 74
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 400: WON | Material diff = 13 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 401: LOST | Material diff = 10 | TOTAL_MOVES = 48
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 402: WON | Material diff = 17 | TOTAL_MOVES = 35 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 403: LOST | Material diff = -3 | TOTAL_MOVES = 70
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 404: WON | Material diff = 12 | TOTAL_MOVES = 87 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 405: LOST | Material diff = 6 | TOTAL_MOVES = 42
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 406: WON | Material diff = 21 | TOTAL_MOVES = 113 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 407: LOST | Material diff = -12 | TOTAL_MOVES = 112
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 408: LOST | Material diff = -7 | TOTAL_MOVES = 108
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 409: LOST | Material diff = 1 | TOTAL_MOVES = 86
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 410: DRAW | Material diff = -5 | TOTAL_MOVES = 339
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 411: LOST | Material diff = 6 | TOTAL_MOVES = 78
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 412: LOST | Material diff = 5 | TOTAL_MOVES = 108
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 413: LOST | Material diff = -9 | TOTAL_MOVES = 220
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 414: LOST | Material diff = -12 | TOTAL_MOVES = 288
+
+Termination: INSUFFICIENT_MATERIAL
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 415: DRAW | Material diff = 0 | TOTAL_MOVES = 278
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 416: LOST | Material diff = 3 | TOTAL_MOVES = 82
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 417: DRAW | Material diff = 12 | TOTAL_MOVES = 52
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 418: WON | Material diff = 19 | TOTAL_MOVES = 67 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 419: LOST | Material diff = 1 | TOTAL_MOVES = 84
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 420: LOST | Material diff = 4 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 421: LOST | Material diff = -9 | TOTAL_MOVES = 84
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 422: DRAW | Material diff = 20 | TOTAL_MOVES = 105
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 423: LOST | Material diff = -12 | TOTAL_MOVES = 162
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 424: WON | Material diff = 35 | TOTAL_MOVES = 73 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 425: LOST | Material diff = -12 | TOTAL_MOVES = 88
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 426: DRAW | Material diff = 12 | TOTAL_MOVES = 84
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 427: LOST | Material diff = -2 | TOTAL_MOVES = 90
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 428: WON | Material diff = 24 | TOTAL_MOVES = 65 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 429: WON | Material diff = 16 | TOTAL_MOVES = 115 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 430: LOST | Material diff = 7 | TOTAL_MOVES = 60
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 431: LOST | Material diff = -3 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 432: WON | Material diff = 28 | TOTAL_MOVES = 55 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 433: LOST | Material diff = -9 | TOTAL_MOVES = 170
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 434: LOST | Material diff = -2 | TOTAL_MOVES = 84
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 435: LOST | Material diff = -18 | TOTAL_MOVES = 168
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 436: LOST | Material diff = 4 | TOTAL_MOVES = 52
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 437: WON | Material diff = 19 | TOTAL_MOVES = 47 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 438: WON | Material diff = 14 | TOTAL_MOVES = 69 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 439: LOST | Material diff = -3 | TOTAL_MOVES = 72
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 440: LOST | Material diff = -15 | TOTAL_MOVES = 160
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 441: WON | Material diff = 16 | TOTAL_MOVES = 111 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 442: LOST | Material diff = -4 | TOTAL_MOVES = 62
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 443: LOST | Material diff = -1 | TOTAL_MOVES = 78
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 444: LOST | Material diff = -12 | TOTAL_MOVES = 106
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 445: LOST | Material diff = -9 | TOTAL_MOVES = 224
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 446: WON | Material diff = 15 | TOTAL_MOVES = 131 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 447: LOST | Material diff = -10 | TOTAL_MOVES = 218
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 448: WON | Material diff = 6 | TOTAL_MOVES = 49 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 449: WON | Material diff = 31 | TOTAL_MOVES = 63 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 450: WON | Material diff = 14 | TOTAL_MOVES = 415 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 451: LOST | Material diff = 2 | TOTAL_MOVES = 56
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 452: WON | Material diff = 22 | TOTAL_MOVES = 89 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 453: LOST | Material diff = -7 | TOTAL_MOVES = 132
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 454: WON | Material diff = 25 | TOTAL_MOVES = 69 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 455: LOST | Material diff = -6 | TOTAL_MOVES = 46
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 456: DRAW | Material diff = 10 | TOTAL_MOVES = 218
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 457: LOST | Material diff = -8 | TOTAL_MOVES = 142
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 458: DRAW | Material diff = 10 | TOTAL_MOVES = 91
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 459: WON | Material diff = 16 | TOTAL_MOVES = 101 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 460: WON | Material diff = 26 | TOTAL_MOVES = 47 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 461: DRAW | Material diff = -5 | TOTAL_MOVES = 265
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 462: LOST | Material diff = -15 | TOTAL_MOVES = 84
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 463: WON | Material diff = 13 | TOTAL_MOVES = 95 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 464: LOST | Material diff = -4 | TOTAL_MOVES = 62
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 465: WON | Material diff = 20 | TOTAL_MOVES = 179 
+
+Termination: INSUFFICIENT_MATERIAL
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 466: DRAW | Material diff = 0 | TOTAL_MOVES = 265
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 467: WON | Material diff = 10 | TOTAL_MOVES = 41 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 468: LOST | Material diff = -8 | TOTAL_MOVES = 120
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 469: WON | Material diff = 10 | TOTAL_MOVES = 91 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 470: LOST | Material diff = -10 | TOTAL_MOVES = 88
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 471: WON | Material diff = 28 | TOTAL_MOVES = 125 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 472: WON | Material diff = 15 | TOTAL_MOVES = 97 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 473: WON | Material diff = 16 | TOTAL_MOVES = 71 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 474: LOST | Material diff = -5 | TOTAL_MOVES = 44
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 475: LOST | Material diff = 3 | TOTAL_MOVES = 42
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 476: WON | Material diff = 20 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 477: WON | Material diff = 25 | TOTAL_MOVES = 101 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 478: WON | Material diff = 10 | TOTAL_MOVES = 81 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 479: WON | Material diff = 29 | TOTAL_MOVES = 57 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 480: LOST | Material diff = 0 | TOTAL_MOVES = 86
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 481: LOST | Material diff = -11 | TOTAL_MOVES = 126
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 482: LOST | Material diff = 2 | TOTAL_MOVES = 54
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 483: WON | Material diff = 18 | TOTAL_MOVES = 63 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 484: LOST | Material diff = -3 | TOTAL_MOVES = 160
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 485: LOST | Material diff = 6 | TOTAL_MOVES = 52
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 486: LOST | Material diff = -4 | TOTAL_MOVES = 124
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 487: LOST | Material diff = 3 | TOTAL_MOVES = 64
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 488: WON | Material diff = 10 | TOTAL_MOVES = 111 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 489: WON | Material diff = 28 | TOTAL_MOVES = 53 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 490: WON | Material diff = 7 | TOTAL_MOVES = 55 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 491: WON | Material diff = 15 | TOTAL_MOVES = 65 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 492: LOST | Material diff = -2 | TOTAL_MOVES = 154
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 493: WON | Material diff = 29 | TOTAL_MOVES = 73 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 494: LOST | Material diff = -9 | TOTAL_MOVES = 202
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 495: LOST | Material diff = 4 | TOTAL_MOVES = 80
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 496: LOST | Material diff = 2 | TOTAL_MOVES = 58
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 497: LOST | Material diff = 2 | TOTAL_MOVES = 48
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 498: WON | Material diff = 12 | TOTAL_MOVES = 87 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 499: DRAW | Material diff = 1 | TOTAL_MOVES = 189
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 500: DRAW | Material diff = 5 | TOTAL_MOVES = 416
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 501: LOST | Material diff = -9 | TOTAL_MOVES = 172
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 502: WON | Material diff = 31 | TOTAL_MOVES = 51 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 503: LOST | Material diff = 1 | TOTAL_MOVES = 78
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 504: LOST | Material diff = -10 | TOTAL_MOVES = 60
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 505: LOST | Material diff = -2 | TOTAL_MOVES = 76
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 506: LOST | Material diff = -3 | TOTAL_MOVES = 148
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 507: WON | Material diff = 21 | TOTAL_MOVES = 99 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 508: WON | Material diff = 15 | TOTAL_MOVES = 117 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 509: DRAW | Material diff = 2 | TOTAL_MOVES = 92
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 510: WON | Material diff = 17 | TOTAL_MOVES = 137 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 511: LOST | Material diff = 2 | TOTAL_MOVES = 40
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 512: WON | Material diff = 20 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 513: WON | Material diff = 17 | TOTAL_MOVES = 81 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 514: WON | Material diff = 25 | TOTAL_MOVES = 69 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 515: DRAW | Material diff = 10 | TOTAL_MOVES = 93
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 516: WON | Material diff = 25 | TOTAL_MOVES = 97 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 517: LOST | Material diff = -4 | TOTAL_MOVES = 178
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 518: WON | Material diff = 29 | TOTAL_MOVES = 55 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 519: WON | Material diff = 16 | TOTAL_MOVES = 73 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 520: LOST | Material diff = -9 | TOTAL_MOVES = 256
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 521: LOST | Material diff = -11 | TOTAL_MOVES = 132
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 522: WON | Material diff = 22 | TOTAL_MOVES = 55 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 523: LOST | Material diff = -7 | TOTAL_MOVES = 90
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 524: LOST | Material diff = -4 | TOTAL_MOVES = 40
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 525: LOST | Material diff = 1 | TOTAL_MOVES = 46
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 526: WON | Material diff = 25 | TOTAL_MOVES = 107 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 527: DRAW | Material diff = 8 | TOTAL_MOVES = 97
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 528: LOST | Material diff = 3 | TOTAL_MOVES = 118
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 529: WON | Material diff = 10 | TOTAL_MOVES = 73 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 530: LOST | Material diff = -6 | TOTAL_MOVES = 90
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 531: LOST | Material diff = -5 | TOTAL_MOVES = 214
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 532: WON | Material diff = 19 | TOTAL_MOVES = 131 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 533: LOST | Material diff = -6 | TOTAL_MOVES = 104
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 534: LOST | Material diff = 0 | TOTAL_MOVES = 148
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 535: WON | Material diff = 18 | TOTAL_MOVES = 53 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 536: LOST | Material diff = -1 | TOTAL_MOVES = 68
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 537: DRAW | Material diff = 4 | TOTAL_MOVES = 245
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 538: LOST | Material diff = -14 | TOTAL_MOVES = 216
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 539: DRAW | Material diff = 9 | TOTAL_MOVES = 59
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 540: LOST | Material diff = -14 | TOTAL_MOVES = 122
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 541: WON | Material diff = 22 | TOTAL_MOVES = 69 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 542: LOST | Material diff = 4 | TOTAL_MOVES = 56
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 543: LOST | Material diff = -10 | TOTAL_MOVES = 194
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 544: LOST | Material diff = -1 | TOTAL_MOVES = 52
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 545: LOST | Material diff = -8 | TOTAL_MOVES = 118
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 546: DRAW | Material diff = 18 | TOTAL_MOVES = 71
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 547: DRAW | Material diff = 8 | TOTAL_MOVES = 75
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 548: LOST | Material diff = -11 | TOTAL_MOVES = 86
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 549: LOST | Material diff = -9 | TOTAL_MOVES = 176
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 550: LOST | Material diff = -12 | TOTAL_MOVES = 142
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 551: LOST | Material diff = -1 | TOTAL_MOVES = 76
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 552: LOST | Material diff = -12 | TOTAL_MOVES = 114
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 553: WON | Material diff = 18 | TOTAL_MOVES = 91 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 554: LOST | Material diff = -4 | TOTAL_MOVES = 178
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 555: DRAW | Material diff = 2 | TOTAL_MOVES = 144
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 556: LOST | Material diff = -10 | TOTAL_MOVES = 178
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 557: WON | Material diff = 26 | TOTAL_MOVES = 51 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 558: DRAW | Material diff = 4 | TOTAL_MOVES = 227
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 559: LOST | Material diff = -2 | TOTAL_MOVES = 68
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 560: WON | Material diff = 33 | TOTAL_MOVES = 59 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 561: WON | Material diff = 22 | TOTAL_MOVES = 129 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 562: LOST | Material diff = -10 | TOTAL_MOVES = 78
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 563: LOST | Material diff = 1 | TOTAL_MOVES = 260
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 564: WON | Material diff = 15 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 565: WON | Material diff = 9 | TOTAL_MOVES = 53 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 566: LOST | Material diff = -6 | TOTAL_MOVES = 146
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 567: LOST | Material diff = -12 | TOTAL_MOVES = 170
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 568: WON | Material diff = 23 | TOTAL_MOVES = 85 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 569: LOST | Material diff = -2 | TOTAL_MOVES = 52
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 570: WON | Material diff = 9 | TOTAL_MOVES = 37 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 571: WON | Material diff = 4 | TOTAL_MOVES = 43 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 572: LOST | Material diff = -5 | TOTAL_MOVES = 62
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 573: LOST | Material diff = 1 | TOTAL_MOVES = 86
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 574: WON | Material diff = 5 | TOTAL_MOVES = 83 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 575: DRAW | Material diff = 2 | TOTAL_MOVES = 110
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 576: LOST | Material diff = 6 | TOTAL_MOVES = 66
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 577: WON | Material diff = 18 | TOTAL_MOVES = 71 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 578: LOST | Material diff = -4 | TOTAL_MOVES = 58
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 579: WON | Material diff = 18 | TOTAL_MOVES = 55 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 580: LOST | Material diff = -8 | TOTAL_MOVES = 66
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 581: LOST | Material diff = -4 | TOTAL_MOVES = 84
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 582: LOST | Material diff = -8 | TOTAL_MOVES = 118
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 583: WON | Material diff = 29 | TOTAL_MOVES = 71 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 584: LOST | Material diff = 10 | TOTAL_MOVES = 64
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 585: LOST | Material diff = -9 | TOTAL_MOVES = 264
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 586: WON | Material diff = 10 | TOTAL_MOVES = 69 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 587: WON | Material diff = 19 | TOTAL_MOVES = 55 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 588: LOST | Material diff = 7 | TOTAL_MOVES = 58
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 589: LOST | Material diff = 5 | TOTAL_MOVES = 86
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 590: LOST | Material diff = -4 | TOTAL_MOVES = 88
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 591: LOST | Material diff = -5 | TOTAL_MOVES = 224
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 592: WON | Material diff = 18 | TOTAL_MOVES = 133 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 593: LOST | Material diff = -2 | TOTAL_MOVES = 78
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 594: WON | Material diff = 23 | TOTAL_MOVES = 101 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 595: LOST | Material diff = 0 | TOTAL_MOVES = 34
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 596: LOST | Material diff = -14 | TOTAL_MOVES = 206
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 597: LOST | Material diff = -2 | TOTAL_MOVES = 70
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 598: LOST | Material diff = -9 | TOTAL_MOVES = 236
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 599: WON | Material diff = 23 | TOTAL_MOVES = 77 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 600: LOST | Material diff = 9 | TOTAL_MOVES = 90
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 601: WON | Material diff = 10 | TOTAL_MOVES = 115 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 602: WON | Material diff = 17 | TOTAL_MOVES = 139 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 603: LOST | Material diff = 7 | TOTAL_MOVES = 56
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 604: WON | Material diff = 22 | TOTAL_MOVES = 107 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 605: LOST | Material diff = 0 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 606: WON | Material diff = 16 | TOTAL_MOVES = 75 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 607: DRAW | Material diff = 2 | TOTAL_MOVES = 178
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 608: DRAW | Material diff = 1 | TOTAL_MOVES = 177
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 609: WON | Material diff = 26 | TOTAL_MOVES = 55 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 610: WON | Material diff = 31 | TOTAL_MOVES = 57 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 611: LOST | Material diff = 6 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 612: LOST | Material diff = -3 | TOTAL_MOVES = 102
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 613: LOST | Material diff = -16 | TOTAL_MOVES = 70
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 614: WON | Material diff = 24 | TOTAL_MOVES = 61 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 615: DRAW | Material diff = 4 | TOTAL_MOVES = 75
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 616: DRAW | Material diff = 7 | TOTAL_MOVES = 156
+
+Termination: STALEMATE
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 617: DRAW | Material diff = 5 | TOTAL_MOVES = 281
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 618: LOST | Material diff = -6 | TOTAL_MOVES = 84
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 619: LOST | Material diff = -2 | TOTAL_MOVES = 158
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 620: WON | Material diff = 4 | TOTAL_MOVES = 45 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 621: LOST | Material diff = -9 | TOTAL_MOVES = 202
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 622: WON | Material diff = 26 | TOTAL_MOVES = 63 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 623: WON | Material diff = 16 | TOTAL_MOVES = 59 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 624: WON | Material diff = 27 | TOTAL_MOVES = 71 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 625: LOST | Material diff = -5 | TOTAL_MOVES = 378
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 626: WON | Material diff = 23 | TOTAL_MOVES = 105 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 627: WON | Material diff = 15 | TOTAL_MOVES = 53 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 628: LOST | Material diff = -6 | TOTAL_MOVES = 142
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 629: LOST | Material diff = 4 | TOTAL_MOVES = 90
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 630: LOST | Material diff = 0 | TOTAL_MOVES = 78
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 631: LOST | Material diff = -15 | TOTAL_MOVES = 196
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 632: WON | Material diff = 12 | TOTAL_MOVES = 57 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 633: LOST | Material diff = 7 | TOTAL_MOVES = 108
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 634: DRAW | Material diff = 3 | TOTAL_MOVES = 67
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 635: LOST | Material diff = -8 | TOTAL_MOVES = 152
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 636: WON | Material diff = 29 | TOTAL_MOVES = 57 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 637: LOST | Material diff = 3 | TOTAL_MOVES = 86
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 638: LOST | Material diff = 2 | TOTAL_MOVES = 66
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 639: DRAW | Material diff = -5 | TOTAL_MOVES = 306
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 640: WON | Material diff = 17 | TOTAL_MOVES = 105 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 641: DRAW | Material diff = 6 | TOTAL_MOVES = 191
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 642: LOST | Material diff = 3 | TOTAL_MOVES = 46
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 643: DRAW | Material diff = 4 | TOTAL_MOVES = 183
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 644: LOST | Material diff = -3 | TOTAL_MOVES = 74
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 645: DRAW | Material diff = 2 | TOTAL_MOVES = 142
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 646: LOST | Material diff = -6 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 647: LOST | Material diff = 6 | TOTAL_MOVES = 58
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 648: LOST | Material diff = 2 | TOTAL_MOVES = 68
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 649: LOST | Material diff = 4 | TOTAL_MOVES = 56
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 650: LOST | Material diff = 2 | TOTAL_MOVES = 60
+
+Termination: INSUFFICIENT_MATERIAL
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 651: DRAW | Material diff = 3 | TOTAL_MOVES = 197
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 652: LOST | Material diff = -7 | TOTAL_MOVES = 126
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 653: LOST | Material diff = -14 | TOTAL_MOVES = 148
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 654: WON | Material diff = 28 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 655: WON | Material diff = 12 | TOTAL_MOVES = 73 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 656: DRAW | Material diff = 3 | TOTAL_MOVES = 105
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 657: DRAW | Material diff = 6 | TOTAL_MOVES = 86
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 658: LOST | Material diff = 0 | TOTAL_MOVES = 68
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 659: WON | Material diff = 14 | TOTAL_MOVES = 79 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 660: WON | Material diff = 13 | TOTAL_MOVES = 65 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 661: LOST | Material diff = -4 | TOTAL_MOVES = 86
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 662: WON | Material diff = 12 | TOTAL_MOVES = 95 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 663: LOST | Material diff = -9 | TOTAL_MOVES = 108
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 664: LOST | Material diff = -18 | TOTAL_MOVES = 152
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 665: LOST | Material diff = 0 | TOTAL_MOVES = 80
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 666: WON | Material diff = 25 | TOTAL_MOVES = 79 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 667: LOST | Material diff = 1 | TOTAL_MOVES = 100
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 668: WON | Material diff = 24 | TOTAL_MOVES = 63 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 669: WON | Material diff = 22 | TOTAL_MOVES = 81 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 670: LOST | Material diff = -1 | TOTAL_MOVES = 72
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 671: WON | Material diff = 25 | TOTAL_MOVES = 49 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 672: WON | Material diff = 19 | TOTAL_MOVES = 117 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 673: WON | Material diff = 23 | TOTAL_MOVES = 57 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 674: LOST | Material diff = -18 | TOTAL_MOVES = 210
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 675: WON | Material diff = 27 | TOTAL_MOVES = 93 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 676: LOST | Material diff = -9 | TOTAL_MOVES = 64
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 677: WON | Material diff = 25 | TOTAL_MOVES = 67 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 678: LOST | Material diff = 6 | TOTAL_MOVES = 56
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 679: LOST | Material diff = -12 | TOTAL_MOVES = 118
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 680: DRAW | Material diff = -5 | TOTAL_MOVES = 303
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 681: LOST | Material diff = -7 | TOTAL_MOVES = 158
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 682: LOST | Material diff = -1 | TOTAL_MOVES = 76
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 683: WON | Material diff = 17 | TOTAL_MOVES = 123 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 684: WON | Material diff = 14 | TOTAL_MOVES = 103 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 685: WON | Material diff = 19 | TOTAL_MOVES = 147 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 686: WON | Material diff = 16 | TOTAL_MOVES = 115 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 687: LOST | Material diff = -13 | TOTAL_MOVES = 168
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 688: WON | Material diff = 18 | TOTAL_MOVES = 103 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 689: LOST | Material diff = 1 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 690: WON | Material diff = 23 | TOTAL_MOVES = 121 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 691: LOST | Material diff = -5 | TOTAL_MOVES = 98
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 692: LOST | Material diff = 2 | TOTAL_MOVES = 62
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 693: WON | Material diff = 15 | TOTAL_MOVES = 79 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 694: WON | Material diff = 18 | TOTAL_MOVES = 87 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 695: LOST | Material diff = -5 | TOTAL_MOVES = 64
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 696: WON | Material diff = 17 | TOTAL_MOVES = 111 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 697: LOST | Material diff = -4 | TOTAL_MOVES = 148
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 698: LOST | Material diff = -5 | TOTAL_MOVES = 90
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 699: LOST | Material diff = 8 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 700: LOST | Material diff = -18 | TOTAL_MOVES = 210
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 701: WON | Material diff = 19 | TOTAL_MOVES = 77 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 702: WON | Material diff = 24 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 703: LOST | Material diff = 1 | TOTAL_MOVES = 38
+
+Termination: INSUFFICIENT_MATERIAL
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 704: DRAW | Material diff = 0 | TOTAL_MOVES = 92
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 705: LOST | Material diff = 4 | TOTAL_MOVES = 80
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 706: LOST | Material diff = -14 | TOTAL_MOVES = 214
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 707: DRAW | Material diff = 7 | TOTAL_MOVES = 69
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 708: LOST | Material diff = -6 | TOTAL_MOVES = 88
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 709: WON | Material diff = 24 | TOTAL_MOVES = 83 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 710: DRAW | Material diff = 3 | TOTAL_MOVES = 150
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 711: LOST | Material diff = 7 | TOTAL_MOVES = 64
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 712: WON | Material diff = 28 | TOTAL_MOVES = 55 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 713: WON | Material diff = 21 | TOTAL_MOVES = 87 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 714: LOST | Material diff = 2 | TOTAL_MOVES = 66
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 715: LOST | Material diff = -6 | TOTAL_MOVES = 224
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 716: LOST | Material diff = -8 | TOTAL_MOVES = 72
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 717: LOST | Material diff = -11 | TOTAL_MOVES = 44
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 718: LOST | Material diff = 6 | TOTAL_MOVES = 66
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 719: WON | Material diff = 20 | TOTAL_MOVES = 87 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 720: LOST | Material diff = -8 | TOTAL_MOVES = 272
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 721: LOST | Material diff = -2 | TOTAL_MOVES = 56
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 722: LOST | Material diff = -7 | TOTAL_MOVES = 144
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 723: LOST | Material diff = -7 | TOTAL_MOVES = 88
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 724: WON | Material diff = 25 | TOTAL_MOVES = 79 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 725: LOST | Material diff = -5 | TOTAL_MOVES = 72
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 726: LOST | Material diff = 6 | TOTAL_MOVES = 64
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 727: LOST | Material diff = 0 | TOTAL_MOVES = 70
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 728: LOST | Material diff = -4 | TOTAL_MOVES = 94
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 729: WON | Material diff = 11 | TOTAL_MOVES = 157 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 730: LOST | Material diff = 3 | TOTAL_MOVES = 26
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 731: LOST | Material diff = 1 | TOTAL_MOVES = 58
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 732: LOST | Material diff = 0 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 733: LOST | Material diff = -3 | TOTAL_MOVES = 172
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 734: LOST | Material diff = -6 | TOTAL_MOVES = 52
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 735: LOST | Material diff = 0 | TOTAL_MOVES = 150
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 736: WON | Material diff = 16 | TOTAL_MOVES = 105 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 737: LOST | Material diff = 2 | TOTAL_MOVES = 106
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 738: LOST | Material diff = -10 | TOTAL_MOVES = 280
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 739: LOST | Material diff = -5 | TOTAL_MOVES = 294
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 740: WON | Material diff = 17 | TOTAL_MOVES = 73 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 741: WON | Material diff = 22 | TOTAL_MOVES = 75 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 742: WON | Material diff = 5 | TOTAL_MOVES = 85 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 743: WON | Material diff = 23 | TOTAL_MOVES = 91 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 744: WON | Material diff = 34 | TOTAL_MOVES = 97 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 745: LOST | Material diff = 0 | TOTAL_MOVES = 86
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 746: LOST | Material diff = -5 | TOTAL_MOVES = 54
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 747: LOST | Material diff = -10 | TOTAL_MOVES = 134
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 748: WON | Material diff = 29 | TOTAL_MOVES = 81 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 749: DRAW | Material diff = 2 | TOTAL_MOVES = 102
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 750: LOST | Material diff = -15 | TOTAL_MOVES = 150
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 751: LOST | Material diff = -2 | TOTAL_MOVES = 52
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 752: LOST | Material diff = 2 | TOTAL_MOVES = 80
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 753: DRAW | Material diff = 15 | TOTAL_MOVES = 67
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 754: WON | Material diff = 15 | TOTAL_MOVES = 77 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 755: LOST | Material diff = -9 | TOTAL_MOVES = 76
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 756: LOST | Material diff = 1 | TOTAL_MOVES = 52
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 757: LOST | Material diff = 0 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 758: LOST | Material diff = 10 | TOTAL_MOVES = 90
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 759: LOST | Material diff = 6 | TOTAL_MOVES = 68
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 760: LOST | Material diff = 0 | TOTAL_MOVES = 48
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 761: WON | Material diff = 27 | TOTAL_MOVES = 57 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 762: LOST | Material diff = -14 | TOTAL_MOVES = 56
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 763: WON | Material diff = 26 | TOTAL_MOVES = 141 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 764: WON | Material diff = 12 | TOTAL_MOVES = 51 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 765: LOST | Material diff = -2 | TOTAL_MOVES = 84
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 766: WON | Material diff = 24 | TOTAL_MOVES = 69 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 767: LOST | Material diff = -4 | TOTAL_MOVES = 72
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 768: LOST | Material diff = -1 | TOTAL_MOVES = 62
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 769: LOST | Material diff = -17 | TOTAL_MOVES = 110
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 770: WON | Material diff = 26 | TOTAL_MOVES = 99 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 771: WON | Material diff = 25 | TOTAL_MOVES = 95 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 772: DRAW | Material diff = 6 | TOTAL_MOVES = 87
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 773: LOST | Material diff = -18 | TOTAL_MOVES = 166
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 774: DRAW | Material diff = 8 | TOTAL_MOVES = 62
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 775: LOST | Material diff = -5 | TOTAL_MOVES = 482
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 776: LOST | Material diff = -2 | TOTAL_MOVES = 66
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 777: WON | Material diff = 27 | TOTAL_MOVES = 61 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 778: LOST | Material diff = -11 | TOTAL_MOVES = 216
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 779: LOST | Material diff = -4 | TOTAL_MOVES = 250
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 780: LOST | Material diff = 1 | TOTAL_MOVES = 46
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 781: LOST | Material diff = -1 | TOTAL_MOVES = 164
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 782: LOST | Material diff = 3 | TOTAL_MOVES = 48
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 783: DRAW | Material diff = 14 | TOTAL_MOVES = 222
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 784: DRAW | Material diff = 1 | TOTAL_MOVES = 225
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 785: WON | Material diff = 18 | TOTAL_MOVES = 87 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 786: LOST | Material diff = 0 | TOTAL_MOVES = 66
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 787: WON | Material diff = 19 | TOTAL_MOVES = 79 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 788: LOST | Material diff = 5 | TOTAL_MOVES = 60
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 789: LOST | Material diff = 6 | TOTAL_MOVES = 68
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 790: WON | Material diff = 19 | TOTAL_MOVES = 75 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 791: WON | Material diff = 21 | TOTAL_MOVES = 81 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 792: WON | Material diff = 16 | TOTAL_MOVES = 73 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 793: LOST | Material diff = -1 | TOTAL_MOVES = 76
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 794: LOST | Material diff = -5 | TOTAL_MOVES = 148
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 795: LOST | Material diff = -4 | TOTAL_MOVES = 70
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 796: DRAW | Material diff = 2 | TOTAL_MOVES = 132
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 797: LOST | Material diff = -8 | TOTAL_MOVES = 58
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 798: LOST | Material diff = 1 | TOTAL_MOVES = 58
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 799: WON | Material diff = 26 | TOTAL_MOVES = 95 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 800: LOST | Material diff = 1 | TOTAL_MOVES = 54
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 801: WON | Material diff = 17 | TOTAL_MOVES = 59 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 802: WON | Material diff = 23 | TOTAL_MOVES = 43 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 803: LOST | Material diff = 1 | TOTAL_MOVES = 32
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 804: LOST | Material diff = -18 | TOTAL_MOVES = 102
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 805: WON | Material diff = 9 | TOTAL_MOVES = 65 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 806: LOST | Material diff = 2 | TOTAL_MOVES = 46
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 807: LOST | Material diff = -12 | TOTAL_MOVES = 82
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 808: WON | Material diff = 28 | TOTAL_MOVES = 47 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 809: LOST | Material diff = -12 | TOTAL_MOVES = 198
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 810: LOST | Material diff = -13 | TOTAL_MOVES = 210
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 811: WON | Material diff = 6 | TOTAL_MOVES = 85 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 812: LOST | Material diff = -1 | TOTAL_MOVES = 88
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 813: DRAW | Material diff = 12 | TOTAL_MOVES = 46
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 814: LOST | Material diff = -5 | TOTAL_MOVES = 176
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 815: WON | Material diff = 15 | TOTAL_MOVES = 77 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 816: LOST | Material diff = 1 | TOTAL_MOVES = 40
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 817: DRAW | Material diff = 5 | TOTAL_MOVES = 433
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 818: WON | Material diff = 28 | TOTAL_MOVES = 63 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 819: LOST | Material diff = 2 | TOTAL_MOVES = 94
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 820: LOST | Material diff = -6 | TOTAL_MOVES = 64
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 821: WON | Material diff = 12 | TOTAL_MOVES = 95 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 822: LOST | Material diff = -9 | TOTAL_MOVES = 190
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 823: LOST | Material diff = -7 | TOTAL_MOVES = 70
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 824: LOST | Material diff = -12 | TOTAL_MOVES = 348
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 825: LOST | Material diff = 0 | TOTAL_MOVES = 154
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 826: WON | Material diff = 18 | TOTAL_MOVES = 75 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 827: LOST | Material diff = 11 | TOTAL_MOVES = 58
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 828: WON | Material diff = 13 | TOTAL_MOVES = 99 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 829: WON | Material diff = 23 | TOTAL_MOVES = 51 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 830: LOST | Material diff = -9 | TOTAL_MOVES = 122
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 831: WON | Material diff = 25 | TOTAL_MOVES = 57 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 832: WON | Material diff = 17 | TOTAL_MOVES = 99 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 833: LOST | Material diff = -6 | TOTAL_MOVES = 162
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 834: WON | Material diff = 32 | TOTAL_MOVES = 91 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 835: LOST | Material diff = -5 | TOTAL_MOVES = 328
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 836: LOST | Material diff = 0 | TOTAL_MOVES = 36
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 837: LOST | Material diff = -20 | TOTAL_MOVES = 202
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 838: LOST | Material diff = 0 | TOTAL_MOVES = 52
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 839: WON | Material diff = 23 | TOTAL_MOVES = 75 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 840: LOST | Material diff = 5 | TOTAL_MOVES = 44
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 841: LOST | Material diff = 0 | TOTAL_MOVES = 64
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 842: LOST | Material diff = 0 | TOTAL_MOVES = 62
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 843: WON | Material diff = 31 | TOTAL_MOVES = 73 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 844: LOST | Material diff = -5 | TOTAL_MOVES = 184
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 845: WON | Material diff = 10 | TOTAL_MOVES = 59 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 846: WON | Material diff = 23 | TOTAL_MOVES = 67 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 847: LOST | Material diff = -6 | TOTAL_MOVES = 168
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 848: WON | Material diff = 27 | TOTAL_MOVES = 63 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 849: WON | Material diff = 24 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 850: LOST | Material diff = 3 | TOTAL_MOVES = 40
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 851: LOST | Material diff = -5 | TOTAL_MOVES = 58
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 852: LOST | Material diff = -1 | TOTAL_MOVES = 44
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 853: LOST | Material diff = -8 | TOTAL_MOVES = 100
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 854: LOST | Material diff = -12 | TOTAL_MOVES = 200
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 855: LOST | Material diff = -3 | TOTAL_MOVES = 74
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 856: WON | Material diff = 21 | TOTAL_MOVES = 85 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 857: WON | Material diff = 25 | TOTAL_MOVES = 57 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 858: WON | Material diff = 18 | TOTAL_MOVES = 81 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 859: LOST | Material diff = 2 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 860: LOST | Material diff = -4 | TOTAL_MOVES = 90
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 861: LOST | Material diff = 4 | TOTAL_MOVES = 60
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 862: LOST | Material diff = 3 | TOTAL_MOVES = 18
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 863: LOST | Material diff = -12 | TOTAL_MOVES = 172
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 864: LOST | Material diff = -10 | TOTAL_MOVES = 156
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 865: LOST | Material diff = 3 | TOTAL_MOVES = 72
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 866: WON | Material diff = 13 | TOTAL_MOVES = 67 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 867: WON | Material diff = 17 | TOTAL_MOVES = 51 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 868: LOST | Material diff = -14 | TOTAL_MOVES = 130
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 869: LOST | Material diff = -8 | TOTAL_MOVES = 178
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 870: WON | Material diff = 25 | TOTAL_MOVES = 75 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 871: DRAW | Material diff = 4 | TOTAL_MOVES = 89
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 872: WON | Material diff = 17 | TOTAL_MOVES = 55 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 873: LOST | Material diff = 15 | TOTAL_MOVES = 84
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 874: WON | Material diff = 14 | TOTAL_MOVES = 61 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 875: LOST | Material diff = 0 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 876: LOST | Material diff = -7 | TOTAL_MOVES = 170
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 877: LOST | Material diff = -4 | TOTAL_MOVES = 72
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 878: LOST | Material diff = 1 | TOTAL_MOVES = 90
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 879: LOST | Material diff = -2 | TOTAL_MOVES = 68
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 880: DRAW | Material diff = 18 | TOTAL_MOVES = 79
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 881: WON | Material diff = 17 | TOTAL_MOVES = 77 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 882: LOST | Material diff = -8 | TOTAL_MOVES = 124
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 883: LOST | Material diff = -7 | TOTAL_MOVES = 116
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 884: LOST | Material diff = -14 | TOTAL_MOVES = 194
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 885: WON | Material diff = 15 | TOTAL_MOVES = 61 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 886: LOST | Material diff = -10 | TOTAL_MOVES = 302
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 887: DRAW | Material diff = -5 | TOTAL_MOVES = 442
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 888: LOST | Material diff = -3 | TOTAL_MOVES = 144
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 889: DRAW | Material diff = 1 | TOTAL_MOVES = 234
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 890: WON | Material diff = 9 | TOTAL_MOVES = 71 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 891: LOST | Material diff = -5 | TOTAL_MOVES = 202
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 892: WON | Material diff = 25 | TOTAL_MOVES = 79 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 893: LOST | Material diff = 2 | TOTAL_MOVES = 76
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 894: DRAW | Material diff = 1 | TOTAL_MOVES = 215
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 895: WON | Material diff = 29 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 896: WON | Material diff = 20 | TOTAL_MOVES = 91 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 897: LOST | Material diff = -14 | TOTAL_MOVES = 132
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 898: WON | Material diff = 19 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 899: WON | Material diff = 23 | TOTAL_MOVES = 91 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 900: WON | Material diff = 20 | TOTAL_MOVES = 61 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 901: WON | Material diff = 16 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 902: WON | Material diff = 15 | TOTAL_MOVES = 179 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 903: LOST | Material diff = -8 | TOTAL_MOVES = 98
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 904: WON | Material diff = 18 | TOTAL_MOVES = 61 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 905: LOST | Material diff = -7 | TOTAL_MOVES = 56
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 906: WON | Material diff = 21 | TOTAL_MOVES = 111 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 907: LOST | Material diff = -11 | TOTAL_MOVES = 196
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 908: WON | Material diff = 25 | TOTAL_MOVES = 67 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 909: LOST | Material diff = -20 | TOTAL_MOVES = 226
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 910: WON | Material diff = 5 | TOTAL_MOVES = 71 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 911: LOST | Material diff = -1 | TOTAL_MOVES = 94
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 912: LOST | Material diff = -3 | TOTAL_MOVES = 74
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 913: LOST | Material diff = -15 | TOTAL_MOVES = 52
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 914: WON | Material diff = 4 | TOTAL_MOVES = 53 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 915: WON | Material diff = 30 | TOTAL_MOVES = 49 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 916: WON | Material diff = 21 | TOTAL_MOVES = 57 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 917: WON | Material diff = 25 | TOTAL_MOVES = 73 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 918: WON | Material diff = 30 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 919: WON | Material diff = 9 | TOTAL_MOVES = 83 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 920: DRAW | Material diff = 2 | TOTAL_MOVES = 77
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 921: DRAW | Material diff = 2 | TOTAL_MOVES = 142
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 922: LOST | Material diff = -9 | TOTAL_MOVES = 236
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 923: LOST | Material diff = -6 | TOTAL_MOVES = 98
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 924: DRAW | Material diff = 2 | TOTAL_MOVES = 196
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 925: LOST | Material diff = -5 | TOTAL_MOVES = 44
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 926: WON | Material diff = 20 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 927: WON | Material diff = 13 | TOTAL_MOVES = 97 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 928: LOST | Material diff = -4 | TOTAL_MOVES = 56
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 929: WON | Material diff = 7 | TOTAL_MOVES = 65 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 930: LOST | Material diff = 1 | TOTAL_MOVES = 80
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 931: WON | Material diff = 18 | TOTAL_MOVES = 139 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 932: WON | Material diff = 26 | TOTAL_MOVES = 73 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 933: LOST | Material diff = 1 | TOTAL_MOVES = 50
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 934: LOST | Material diff = -7 | TOTAL_MOVES = 144
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 935: WON | Material diff = 24 | TOTAL_MOVES = 89 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 936: LOST | Material diff = 3 | TOTAL_MOVES = 80
+
+Termination: SEVENTYFIVE_MOVES
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 937: DRAW | Material diff = 8 | TOTAL_MOVES = 283
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 938: LOST | Material diff = 0 | TOTAL_MOVES = 132
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 939: LOST | Material diff = 2 | TOTAL_MOVES = 36
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 940: LOST | Material diff = -10 | TOTAL_MOVES = 188
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 941: LOST | Material diff = -10 | TOTAL_MOVES = 238
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 942: LOST | Material diff = 1 | TOTAL_MOVES = 62
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 943: WON | Material diff = 15 | TOTAL_MOVES = 85 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 944: WON | Material diff = 16 | TOTAL_MOVES = 85 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 945: WON | Material diff = 13 | TOTAL_MOVES = 53 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 946: LOST | Material diff = -1 | TOTAL_MOVES = 200
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 947: LOST | Material diff = 4 | TOTAL_MOVES = 82
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 948: LOST | Material diff = 0 | TOTAL_MOVES = 86
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 949: LOST | Material diff = 0 | TOTAL_MOVES = 92
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 950: LOST | Material diff = -7 | TOTAL_MOVES = 154
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 951: LOST | Material diff = 0 | TOTAL_MOVES = 26
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 952: LOST | Material diff = -20 | TOTAL_MOVES = 62
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 953: WON | Material diff = 27 | TOTAL_MOVES = 79 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 954: WON | Material diff = 19 | TOTAL_MOVES = 53 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 955: WON | Material diff = 22 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 956: WON | Material diff = 18 | TOTAL_MOVES = 69 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 957: LOST | Material diff = -3 | TOTAL_MOVES = 172
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 958: WON | Material diff = 18 | TOTAL_MOVES = 105 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 959: LOST | Material diff = -9 | TOTAL_MOVES = 254
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 960: LOST | Material diff = -12 | TOTAL_MOVES = 94
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 961: LOST | Material diff = -4 | TOTAL_MOVES = 84
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 962: WON | Material diff = 22 | TOTAL_MOVES = 83 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 963: LOST | Material diff = -12 | TOTAL_MOVES = 274
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 964: WON | Material diff = 24 | TOTAL_MOVES = 69 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 965: LOST | Material diff = -12 | TOTAL_MOVES = 238
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 966: WON | Material diff = 14 | TOTAL_MOVES = 87 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 967: WON | Material diff = 9 | TOTAL_MOVES = 49 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 968: WON | Material diff = 21 | TOTAL_MOVES = 111 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 969: WON | Material diff = 26 | TOTAL_MOVES = 131 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 970: LOST | Material diff = 3 | TOTAL_MOVES = 78
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 971: WON | Material diff = 22 | TOTAL_MOVES = 65 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 972: LOST | Material diff = -13 | TOTAL_MOVES = 86
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 973: WON | Material diff = 18 | TOTAL_MOVES = 87 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 974: LOST | Material diff = 1 | TOTAL_MOVES = 52
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 975: LOST | Material diff = -14 | TOTAL_MOVES = 224
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 976: WON | Material diff = 15 | TOTAL_MOVES = 87 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 977: LOST | Material diff = -12 | TOTAL_MOVES = 64
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 978: LOST | Material diff = -6 | TOTAL_MOVES = 102
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 979: LOST | Material diff = -4 | TOTAL_MOVES = 194
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 980: LOST | Material diff = -9 | TOTAL_MOVES = 140
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 981: LOST | Material diff = -2 | TOTAL_MOVES = 70
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 982: LOST | Material diff = 2 | TOTAL_MOVES = 74
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 983: LOST | Material diff = -9 | TOTAL_MOVES = 492
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 984: WON | Material diff = 23 | TOTAL_MOVES = 69 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 985: LOST | Material diff = -5 | TOTAL_MOVES = 78
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 986: LOST | Material diff = -2 | TOTAL_MOVES = 106
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 987: WON | Material diff = 21 | TOTAL_MOVES = 113 
+
+Termination: INSUFFICIENT_MATERIAL
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 988: DRAW | Material diff = 3 | TOTAL_MOVES = 185
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 989: LOST | Material diff = -6 | TOTAL_MOVES = 98
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 990: LOST | Material diff = -13 | TOTAL_MOVES = 44
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 991: WON | Material diff = 8 | TOTAL_MOVES = 41 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 992: LOST | Material diff = -2 | TOTAL_MOVES = 30
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 993: LOST | Material diff = 8 | TOTAL_MOVES = 84
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 994: WON | Material diff = 20 | TOTAL_MOVES = 93 
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 995: LOST | Material diff = -7 | TOTAL_MOVES = 256
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 996: WON | Material diff = 16 | TOTAL_MOVES = 89 
+
+Termination: FIVEFOLD_REPETITION
+Winner: Draw
+Raw outcome string: 1/2-1/2
+engine played  WHITE
+Game 997: DRAW | Material diff = 2 | TOTAL_MOVES = 107
+
+Termination: CHECKMATE
+Winner: Black
+Raw outcome string: 0-1
+engine played  WHITE
+Game 998: LOST | Material diff = -2 | TOTAL_MOVES = 64
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 999: WON | Material diff = 22 | TOTAL_MOVES = 81 
+
+Termination: CHECKMATE
+Winner: White
+Raw outcome string: 1-0
+engine played  WHITE
+Game 1000: WON | Material diff = 16 | TOTAL_MOVES = 95 
+
+
+========================
+FINAL RESULTS
+========================
+Wins   : 370
+Losses : 522
+Draws  : 108
+Score  : 0.424
+
+Estimated Elo = 1947
