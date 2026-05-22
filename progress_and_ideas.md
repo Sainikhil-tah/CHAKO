@@ -9,7 +9,7 @@
 ---
 
 ## BEST MOVE
-- Implemented Minimax Search
+- Implemented negamax Search
 - Optimized using Alpha-Beta Pruning
 - Added Quiescent Search to overcome the horizon effect at depth = 0
 
