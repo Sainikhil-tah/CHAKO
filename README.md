@@ -1,5 +1,24 @@
 # CHAKO
 
+CHAKO is a terminal-based chess engine and playable chess application written in C++.
+
+The project was built to explore classical chess engine architecture, search algorithms, board evaluation techniques, and automated engine benchmarking. It supports both Human vs Human and Human vs Engine gameplay directly from the terminal, along with automated testing against Stockfish for performance evaluation and Elo estimation.
+
+The engine currently uses a Negamax search framework with Alpha-Beta pruning, Quiescence search, material evaluation, and Piece-Square Tables (PSTs) to evaluate positions efficiently.
+
+Apart from gameplay, the project also focuses on:
+- engine experimentation,
+- evaluation tuning,
+- endgame heuristics,
+- automated testing pipelines,
+- and practical search optimizations.
+
+CHAKO was developed as a systems-oriented project combining:
+- algorithmic problem solving,
+- chess engine architecture,
+- search optimization techniques,
+- game state management,
+- and automated engine benchmarking.
 # Terminal Chess Engine
 
 A terminal-based chess game and chess engine written in C++.
@@ -10,20 +29,20 @@ The project supports both **Human vs Human** and **Human vs Engine** gameplay di
 
 # Features
 
-* ♟️ Human vs Human mode
-* 🤖 Human vs Engine mode
-* ↩️ Undo moves
-* ↪️ Redo moves
-* 💾 Save game support
-* 📂 Load saved games
-* ❌ Cancel move functionality
-* 🧠 Negamax based chess engine
-* ⚡ Alpha-Beta pruning
-* 🔍 Quiescence search
-* 🐍 Automated testing using Python scripts
-* 📊 Stockfish benchmarking and evaluation
-* 📟 Clean terminal interface
-
+* Human vs Human mode
+* Human vs Engine mode
+* Undo moves
+* Redo moves
+* Save game support
+* Load saved games
+* Cancel move functionality
+* Negamax based chess engine
+* Alpha-Beta pruning
+* Quiescence search
+* Automated testing using Python scripts
+* Stockfish benchmarking and evaluation
+* Clean terminal interface
+* Full legal chess move support,including castling,en passant,pawn promotion,check/checkmate detection and draw condition handling.
 ---
 
 # Estimated Engine Strength
@@ -32,11 +51,11 @@ The engine was benchmarked using automated games against Stockfish under differe
 
 Tests were performed over approximately **500 games**.
 
-| Search Depth | Time Limit  | Estimated Elo |
-| ------------ | ----------- | ------------- |
-| Depth 4      | 0.5 seconds | ~1674 Elo     |
-| Depth 5      | 3 seconds   | ~1882 Elo     |
-
+| Search Depth | Time Limit  | Estimated Elo | Average Game Duration(tested for 250 games)|
+| ------------ | ----------- | ------------- | --------------------- |
+| Depth 4      | 0.5 seconds | ~1674 Elo     | ~28 seconds           |
+| Depth 4      | 1 second    | ~1732 Elo     | ~33 seconds           |
+| Depth 5      | 3 seconds   | ~1882 Elo     | ~65 seconds           |
 > Elo values are approximate and may vary depending on hardware, openings, and testing conditions.
 
 ---
@@ -85,7 +104,7 @@ g++ .\src\*.cpp -I.\include -std=c++20 -g -o chess.exe
 ### Run
 
 ```powershell
-.\chess.exe
+./chess.exe
 ```
 
 ---
@@ -203,12 +222,53 @@ A video explaining the problems and errors faced during development, along with 
 ---
 
 # Future Improvements
-
 * Iterative deepening
+* zobrist hashing
 * Transposition tables
-* Improved evaluation function
-* Better move ordering
-* Opening book support
-* UCI protocol support
-
+* Improved evaluation function 
 ---
+---
+
+# Web Arena Interface (Will Be Added Shortly)
+
+An experimental browser-based arena system was also developed for automated engine testing, benchmarking, and live match visualization.
+
+The frontend was implemented using:
+- HTML
+- CSS
+- JavaScript
+
+The backend was implemented using:
+- Python
+- Flask
+- Flask-CORS
+- Python subprocess management
+- UCI-based engine communication
+
+The arena system allows automated matches between:
+- CHAKO
+- Stockfish
+
+Currently implemented features:
+- configurable Stockfish Elo(cant change once the game starts),
+- configurable Stockfish search depth (cant change once the game starts),
+- configurable CHAKO search depth (cant change once the game starts),
+- configurable move time controls (cant change once the game starts),
+- live board visualization,
+- real-time game updates,
+- win/loss/draw tracking,
+- estimated Elo calculation,
+- engine statistics tracking,
+- UCI command logging into terminal,
+- 
+The backend communicates with both engines using Python subprocess management and UCI protocol commands exposed through Flask API endpoints.
+
+The frontend and backend systems are currently under further development and will be added to the repository shortly after additional improvements, testing, and stabilization.
+
+Planned improvements:
+- total game duration clock and live frontend time tracking,
+- pause/resume arena during execution,
+- stopping automation mid-match and changing depth,time limit,
+- live move list , captured pieces visualization,
+- PGN copy mid game,
+- data save/load support.
