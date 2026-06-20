@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Chess Arena</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css"
+    >
+
+    <script
+        src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js">
+    </script>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+
+            background:#222;
+
+            color:white;
+
+            font-family:Arial,sans-serif;
+
+            display:flex;
+
+            justify-content:center;
+
+            padding:20px;
+        }
+
+        #container{
+
+            display:flex;
+
+            gap:30px;
+
+            align-items:flex-start;
+        }
+
+        #board{
+            width:600px;
+        }
+
+        #side{
+
+            width:340px;
+
+            max-height:95vh;
+
+            overflow-y:auto;
+
+            padding-right:5px;
+        }
+
+        #side::-webkit-scrollbar{
+            width:8px;
+        }
+
+        #side::-webkit-scrollbar-track{
+            background:#333;
+        }
+
+        #side::-webkit-scrollbar-thumb{
+
+            background:#666;
+
+            border-radius:10px;
+        }
+
+        .box{
+
+            background:#333;
+
+            padding:15px;
+
+            margin-bottom:20px;
+
+            border-radius:10px;
+
+            border:1px solid #444;
+        }
+
+        .box h2{
+
+            font-size:18px;
+
+            margin-bottom:15px;
+        }
+
+        .box h1{
+
+            font-size:24px;
+
+            margin-bottom:10px;
+
+            color:#4CAF50;
+        }
+
+        .box p{
+
+            font-size:16px;
+
+            margin-bottom:8px;
+        }
+
+        label{
+
+            display:block;
+
+            font-size:13px;
+
+            margin-top:10px;
+
+            margin-bottom:5px;
+
+            color:#bbb;
+        }
+
+        input{
+
+            width:100%;
+
+            padding:10px;
+
+            margin-bottom:15px;
+
+            font-size:16px;
+
+            background:#444;
+
+            color:white;
+
+            border:1px solid #555;
+
+            border-radius:5px;
+        }
+
+        input:focus{
+
+            outline:none;
+
+            border-color:#4CAF50;
+        }
+
+        button{
+
+            width:100%;
+
+            padding:12px;
+
+            font-size:16px;
+
+            font-weight:bold;
+
+            cursor:pointer;
+
+            background:#4CAF50;
+
+            color:white;
+
+            border:none;
+
+            border-radius:5px;
+        }
+
+        button:hover:not(:disabled){
+            background:#45a049;
+        }
+
+        button:disabled{
+
+            background:#666;
+
+            cursor:not-allowed;
+
+            opacity:0.7;
+        }
+
+        #status{
+
+            font-size:20px;
+
+            font-weight:bold;
+
+            padding:10px;
+
+            border-radius:5px;
+
+            text-align:center;
+
+            background:#444;
+
+            margin-top:10px;
+        }
+
+        .win{
+            color:#4CAF50;
+        }
+
+        .loss{
+            color:#f44336;
+        }
+
+        .draw{
+            color:#FFC107;
+        }
+
+        #history{
+
+            max-height:500px;
+
+            overflow-y:auto;
+
+            padding-right:5px;
+        }
+
+        .history-item{
+
+            background:#444;
+
+            padding:12px;
+
+            border-radius:8px;
+
+            margin-bottom:12px;
+
+            font-size:14px;
+
+            line-height:1.5;
+
+            white-space:pre-line;
+
+            border-left:5px solid #4CAF50;
+        }
+
+        .history-item.loss{
+            border-left-color:#f44336;
+        }
+
+        .history-item.draw{
+            border-left-color:#FFC107;
+        }
+
+        @media (max-width:1200px){
+
+            #container{
+
+                flex-direction:column;
+
+                align-items:center;
+            }
+
+            #side{
+
+                width:100%;
+
+                max-width:450px;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="board"></div>
+
+        <div id="side">
+
+            <div class="box">
+
+                <h2>⚙️ Settings</h2>
+
+                <label>Stockfish ELO</label>
+                <input id="sf_elo" type="number" value="1600">
+
+                <label>Stockfish Depth</label>
+                <input id="sf_depth" type="number" value="8">
+
+                <label>My Engine Depth</label>
+                <input id="my_depth" type="number" value="5">
+
+                <label>Move Time (ms)</label>
+                <input id="movetime" type="number" value="3000">
+
+                <label>Number of Games</label>
+                <input id="games" type="number" value="100">
+
+                <button
+                    id="startBtn"
+                    onclick="startArena()"
+                >
+                    Start Arena
+                </button>
+
+            </div>
+
+            <div class="box">
+
+                <h1 id="game">Game 1</h1>
+
+                <div id="status">
+                    WAITING
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <h2>📊 Results</h2>
+
+                <p>
+                    Wins:
+                    <span id="wins" class="win">
+                        0
+                    </span>
+                </p>
+
+                <p>
+                    Losses:
+                    <span id="losses" class="loss">
+                        0
+                    </span>
+                </p>
+
+                <p>
+                    Draws:
+                    <span id="draws" class="draw">
+                        0
+                    </span>
+                </p>
+
+                <hr
+                    style="
+                        margin:15px 0;
+                        border:1px solid #555;
+                    "
+                >
+
+                <p>
+
+                    ESTIMATED ELO:
+
+                    <span
+                        id="estimated_elo"
+
+                        style="
+                            color:#4CAF50;
+                            font-weight:bold;
+                        "
+                    >
+                        ---
+                    </span>
+
+                </p>
+
+            </div>
+
+            <div class="box">
+
+                <h2>📝 Match History</h2>
+
+                <div id="history"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="/app.js"></script>
+
+</body>
+
+</html>
